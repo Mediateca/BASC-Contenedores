@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html id="Cont" lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>BASC - Curso virtual de integridad de la carga en Contenedores</title>
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Font Awesome -->
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <!-- Estilo propio de la plantilla -->
+        <link href="css/estilos.css" rel="stylesheet">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-6">
+                        <h1>
+                            Curso de formación virtual
+                            <small>de integridad de la carga en Contenedores.</small>
+                        </h1>
+                    </div>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-3 hidden-xs">
+                        <img src="images/m1.png" class="img-responsive">
+                    </div>
+                    <div class="col-sm-1"></div>
+
+                </div>
+            </div>
+            <nav class="barraNav" role="navigation">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <a class="moduloActual" href="ContMod3Lec1-01.html">
+                                Módulo 3
+                                <div class="triangulo hidden-xs"></div>
+                            </a>
+                            <button id="abrirMenu" class="btn btn-default"><i class="fa fa-bars"></i></button>
+                        </div><!-- /.col-sm-3 -->
+                        <div class="col-sm-9 vinculos">
+                            <div class="interCol hidden-xs"></div>
+                            <div class="row">
+                                <div class="col-sm-3 vinculo">
+                                    <a href="ContMod3Lec1-01.html">Antes de iniciar</a>
+                                </div><!-- /.col-sm-3 -->
+                                <div class="col-sm-3 vinculo">
+                                    <a class="activo" href="ContMod3Lec2-01.html">Alistemos herramientas</a>
+                                </div><!-- /.col-sm-3 -->
+                                <div class="col-sm-3 vinculo">
+                                    <a href="ContMod3Lec3-01.html">Demostremos habilidades</a>
+                                </div><!-- /.col-sm-3 -->
+                                <div class="col-sm-3 vinculo">
+                                    <a href="ContMod3Lec4-01.html">Evaluemos</a>
+                                </div><!-- /.col-sm-3 -->
+                            </div><!-- /.row -->
+                            <div class="finCol hidden-xs"></div>
+                        </div><!-- /.col-sm-3 -->
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </nav>
+        </header>
+        <div id="contenido" class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <section>
+                        <h1>1. REQUISITOS DE ASOCIADOS DE NEGOCIO</h1>
+                        <figure class="sensei">
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <img src="images/Audi_MiyaguiAsomado.png" class="img-responsive">
+                                </div>
+                                <div class="col-xs-8">
+                                    <figcaption>
+                                        <br>
+                                        <p><strong>Asociados de negocio:</strong> constituyen partes interesadas de la empresa, representan clientes, proveedores y terceros vinculados a la cadena de suministro, que se consideran con algún Estándar Internacional de criticidad de acuerdo con la gestión de riesgos de la empresa.</p>
+                                    </figcaption>
+                                </div>
+                            </div>
+                        </figure>
+                        <p>Para la adecuada gestión de los Asociados de Negocio, <strong>las organizaciones en los 3 Estándares Internacionales</strong> deben establecer un <a class="abreBibliografia" data-toggle="modal" href="ContMod3TablaProc.html" data-target="#modal"><i class="fa fa-book"></i> procedimiento documentado</a> que defina la metodología para la selección y revisión periódica de sus asociados de negocio, conforme a su capacidad para cumplir los requisitos de seguridad relacionados con la cadena de suministro.</p>
+                        <figure class="imgInline">
+                            <img src="images/ContMod3_img03.jpg" class="img-responsive">
+                        </figure>
+                        <p>Este proceso debe incluir:</p>
+                        <ol>
+                            <li>El nivel de criticidad con base en la gestión de riesgos.</li>
+                            <li>Evidencia de la certificación BASC, en la que se pueda verificar su autenticidad, número y vigencia, entre otros En caso de no contar con certificación BASC, mantener evidencia de otras certificaciones o iniciativas de seguridad vigentes y reconocidas internacionalmente. Si no cuenta con otras certificaciones o iniciativas de seguridad acordes con los servicios prestados, la empresa debe suscribir acuerdos de seguridad con base en la gestión de riesgos.</li>
+                            <li>Cumplimiento de los acuerdos de seguridad como auditorías de segundo método u otro método de verificación formal, cuya frecuencia dependerá del Estándar Internacional de criticidad. Se deben gestionar las acciones correctivas correspondientes para asegurar el seguimiento a los resultados de dicha verificación. En caso de que no sea viable formalizar un acuerdo de seguridad, la empresa debe establecer controles operacionales que permitan gestionar los riesgos relacionados.</li>
+                            <li>Una lista actualizada de los asociados al negocio.</li>
+                        </ol>
+                        <p>Ahora bien, para las <strong>empresas del Estándar Internacional 5.0.3</strong> se debe establecer un <a class="abreBibliografia" data-toggle="modal" href="ContMod3TablaProc.html" data-target="#modal"><i class="fa fa-book"></i> procedimiento documentado</a> para implementar y verificar periódicamente controles operacionales a sus asociados de negocio. La extensión, detalle y enfoque de estos, deberán estar alineados con el impacto de cada asociado de negocio en la gestión de riesgos. La empresa debe mantener un listado actualizado de sus asociados al negocio.</p>
+                    </section>
+                </div><!-- /.col-md-6 -->
+                <div class="col-md-6">
+                    <section>
+                        <h3>1.2 Prevención del Lavado de Activos y Financiación del Terrorismo</h3>
+                        <p>Las <strong>empresas de los tres Estándares Internacionales</strong> deberán incluir criterios de prevención del Lavado de Activos y Financiación del terrorismo, tales como:</p>
+                        <ol>
+                            <li>Conocimiento de los asociados de negocio, identidad y legalidad de las empresas y sus socios.</li>
+                            <li>Antecedentes legales, penales y financieros.</li>
+                            <li>Monitoreo de sus operaciones con respecto a su actividad económica, el origen de sus ingresos, características de sus operaciones, otros clientes, cumplimiento de contratos, antigüedad en el mercado.</li>
+                            <li>Reporte oportuno a las autoridades competentes cuando se identifiquen operaciones sospechosas.</li>
+                            <li>Verificación de pertenencia a gremios y asociaciones.</li>
+                        </ol>
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <p>Y contemplar cómo mínimo los siguientes factores para identificación de operaciones sospechosas:</p>
+                                <ol>
+                                    <li>Origen y destino de la operación de comercio.</li>
+                                    <li>Frecuencia de las operaciones.</li>
+                                    <li>Valor y tipo de mercancías.</li>
+                                    <li>Modalidad de la operación de transporte.</li>
+                                    <li>Forma de pago de la transacción.</li>
+                                    <li>Inconsistencias en la información proporcionada por los asociados de negocio.</li>
+                                    <li>Requerimientos que salen de lo establecido.</li>
+                                </ol>
+                            </div><!-- /.col-sm-8 -->
+                            <div class="col-sm-4">
+                                <img src="images/UIAF.png" class="img-responsive">
+                            </div><!-- /.col-sm-4 -->
+                        </div><!--/.row -->
+                        <figure class="sensei">
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <img src="images/Audi_MiyaguiAsomado.png" class="img-responsive">
+                                </div>
+                                <div class="col-xs-8">
+                                    <figcaption>
+                                        <br>
+                                        <p>Para el reporte de la operación sospechosa <strong>no se requiere</strong> la certeza de que se trate de una actividad delictiva, ni identificar el tipo penal o que los recursos involucrados provienen de tales actividades. Este reporte debe hacerse ante las autoridades competentes de cada país.</p>
+                                    </figcaption>
+                                </div>
+                            </div>
+                        </figure>
+                        <figure class="sabiaque derecha">
+                            <img src="images/cabeza4.png">
+                            <figcaption>
+                                <p>Comparemos los Requisitos de Asociados de Negocio y Prevención de LAFT para las organizaciones en los tres Estándar Internacionales.</p>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#tabla-modal"><i class="fa fa-table"></i> Abrir tabla</button>
+                            </figcaption>
+                        </figure>
+                    </section>
+                </div><!-- /.col-md-6 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+        <nav class="paginacion">
+            <ul class="pagination">
+                <li><a href="ContMod3Lec2-01.html">&laquo;</a></li>
+                <li><a href="ContMod3Lec1-01.html">1</a></li>
+                <li><a href="ContMod3Lec1-02.html">2</a></li>
+                <li><a href="ContMod3Lec2-01.html">3</a></li>
+                <li class="active"><span>4</span></li>
+                <li><a href="ContMod3Lec2-03.html">5</a></li>
+                <li><a href="ContMod3Lec2-04.html">6</a></li>
+                <li><a href="ContMod3Lec2-05.html">7</a></li>
+                <li><a href="ContMod3Lec2-06.html">8</a></li>
+                <li><a href="ContMod3Lec2-07.html">9</a></li>
+                <li><a href="ContMod3Lec2-08.html">10</a></li>
+                <li><a href="ContMod3Lec3-01.html">11</a></li>
+                <li><a href="ContMod3Lec3-02.html">12</a></li>
+                <li><a href="ContMod3Lec4-01.html">13</a></li>
+                <li><a href="ContMod3Lec2-03.html">&raquo;</a></li>
+            </ul>
+        </nav>
+        <!-- Modal -->
+        <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="Modal" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="tabla-modal" tabindex="-1" role="dialog" aria-labelledby="Modal" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Requisitos de asociados de negocio</h4>
+                    </div>
+                    <div class="modal-body">
+                        <table class="table table-bordered table-striped tabla">
+                            <thead>
+                                <tr class="success">
+                                    <th>Requisitos de seguridad</th>
+                                    <th>Estándar Internacional 5.0.1</th>
+                                    <th>Estándar Internacional 5.0.2</th>
+                                    <th>Estándar Internacional 5.0.3</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Gestión de Asociados del Negocio</td>
+                                    <td colspan="2"><u>Procedimiento documentado</u> con la <strong>metodología</strong> para la <strong>selección y revisión</strong> periódica de los asociados de negocio, conforme a su capacidad para cumplir los requisitos de seguridad relacionados con la cadena de suministro.</td>
+                                    <td><u>Procedimiento documentado</u> para <strong>implementar y verificar periódicamente controles operacionales</strong> a sus asociados de negocio.</td>
+                                </tr>
+                                <tr class="info">
+                                    <td>Prevención de LAFT</td>
+                                    <td colspan="3">Incluir criterios de prevención de LAFT y factores para identificación de operaciones sospechosas.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+        <script src="js/acciones.js"></script>
+    </body>
+</html>
