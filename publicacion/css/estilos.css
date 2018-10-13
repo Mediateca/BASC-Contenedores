@@ -1,12 +1,19 @@
 @import url(http://fonts.googleapis.com/css?family=Vollkorn:400italic,700italic,400,700);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+/*
+$color-primario-claro: #D0ACE4;
+$color-primario-oscuro: #4D007A;
+$color-secundario-claro: #AC75C6;
+$color-secundario-oscuro: #8939AD;
+$color-neutro-claro: #C1CDD4;
+$color-neutro-oscuro: #61717D;
 /* Colores por cada curso */
 #Cont body,
 #Cont .barraNav .finCol {
-    background-color: #A12111;
+    background-color: #8939AD;
 }
 #Cont #contenido section {
-    background-color: #D96137;
+    background-color: #AC75C6;
 }
 #Cont a {
     color: #e8e8e8;
@@ -20,7 +27,7 @@
     background-color: #323a45;
 }
 #Cont .sabiaque img {
-    background-color: #D96137;
+    background-color: #AC75C6;
 }
 #Cont .btn-primary {
     background-color: #409e8f;
@@ -77,13 +84,13 @@
 #Cont .lineaTiempo div:first-of-type:before,
 #Cont .lineaTiempo div:last-of-type:before,
 #Cont .seleccionable {
-    background-color: #A12111;
+    background-color: #8939AD;
 }
 #Cont .lineaTiempo h2:after {
-    background-image: url(../images/Audi_LineaTiempo.png);
+    background-image: url(../images/Cont_LineaTiempo.png);
 }
 #Cont blockquote {
-    border-left: 5px solid #A12111;
+    border-left: 5px solid #8939AD;
 }
 /* Estilos generales para todos los cursos */
 blockquote div.cita {
@@ -409,11 +416,17 @@ figure.periodico-final img {
     margin-top: 8px;
     float: right;
 }
-a.bibliografia {
+a.bibliografia,
+a.glosario {
     white-space: nowrap;
+    color: #C1CDD4 !important;
 }
-a.bibliografia:hover {
+a.bibliografia:hover,
+a.glosario:hover {
     text-decoration: none;
+}
+a.fuente-externa {
+    color: #337ab7 !important;
 }
 .sabiaque {
     color: #fff;
@@ -627,8 +640,28 @@ table.logos tr:not(:last-of-type) {
     z-index: 9999 !important;
 }
 .emparejamiento .destino a {
+    overflow: hidden;
+    min-height: 8.5em;
+    /*
     height: 6em;
     padding-top: 2em;
+    */
+}
+.emparejamiento .destino a .img-arrastrable {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 102%;
+    height: auto;
+}
+.emparejamiento .destino a span.texto {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2em;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
 }
 .emparejamiento .destino.grande a {
     height: 8em;

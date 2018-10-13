@@ -1,136 +1,118 @@
 <!DOCTYPE html>
 <html id="Cont" lang="es">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>BASC - Curso virtual de integridad de la carga en Contenedores</title>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>BASC - Curso virtual de integridad de la carga en Contenedores</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <!-- Estilo propio de la plantilla -->
-    <link href="css/estilos.css" rel="stylesheet">
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Font Awesome -->
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <!-- Estilo propio de la plantilla -->
+        <link href="css/estilos.css" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-1"></div>
-                <div class="col-sm-6">
-                    <h1>
-                        Curso de formación virtual
-                        <small>de integridad de la carga en Contenedores.</small>
-                    </h1>
-                </div>
-                <div class="col-sm-1"></div>
-                <div class="col-sm-3 hidden-xs">
-                    <img src="images/m1.png" class="img-responsive">
-                </div>
-                <div class="col-sm-1">&nbsp;</div>
-
-            </div>
-        </div>
-        <nav class="barraNav" role="navigation">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <header>
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-3">
-                        <a class="moduloActual" href="ContMod1Lec1-01.html">
-                            Módulo 1
-                            <div class="triangulo hidden-xs"></div>
-                        </a>
-                        <button id="abrirMenu" class="btn btn-default"><i class="fa fa-bars"></i></button>
-                    </div><!-- /.col-sm-3 -->
-                    <div class="col-sm-9 vinculos">
-                        <div class="interCol hidden-xs">&nbsp;</div>
-                        <div class="row">
-                            <div class="col-sm-3 vinculo">
-                                <a class="activo" href="ContMod1Lec1-01.html">Antes de iniciar</a>
-                            </div><!-- /.col-sm-3 -->
-                            <div class="col-sm-3 vinculo">
-                                <a href="ContMod1Lec2-01.html">Alistemos herramientas</a>
-                            </div><!-- /.col-sm-3 -->
-                            <div class="col-sm-3 vinculo">
-                                 <a href="ContMod1Lec3-01.html">Demostremos habilidades</a>
-                            </div><!-- /.col-sm-3 -->
-                            <div class="col-sm-3 vinculo">
-                                <a href="ContMod1Lec4-01.html">Evaluemos</a>
-                            </div><!-- /.col-sm-3 -->
-                        </div><!-- /.row -->
-                        <div class="finCol hidden-xs">&nbsp;</div>
-                    </div><!-- /.col-sm-3 -->
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </nav>
-    </header>
-    <div id="contenido" class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <section>
-                    <h1>Antes de iniciar</h1>
-                    <figure class="sensei">
-                        <div class="row">
-                            <div class="col-xs-6">
-                                <img src="images/m5i.png" class="img-responsive">
-                            </div>
-                            <div class="col-xs-6">
-                                <figcaption>
-                                    <br>
-                                    <h2>Bienvenido</h2>
-                                    <p>Muchas veces habrá escuchado acerca del uso de del comercio internacional para realizar actividades ilícitas como narcotráfico o terrorismo; pero realmente ¿comprende la importancia de la seguridad en la cadena logística del comercio internacional?</p>
-                                    <p>Conozcamos una historia…</p>
-                                </figcaption>
-                            </div>
-                        </div><!-- /.row -->
-                    </figure>
-                </section>
-            </div><!-- /.col-md-6 -->
-            <div class="col-md-6">
-                <section>
-                    <figure class="periodico-inicio">
-                        <h1>Hallan cocaína en cajas de bananos que iban a ser exportadas a Europa</h1>
-                        <h2>El contenedor iba a ser cargado en una motonave identificada como "Hsl Sheffield", que tenía como destino el ‘viejo continente’.</h2>
-                        <p>Las autoridades decomisaron más de una tonelada de clorhidrato de cocaína camuflada en cajas de banano que iban a ser exportadas a Europa, informó este viernes la Fiscalía.</p>
-                        <p>Un total de 1.124 kilos de la droga fueron descubiertos en un operativo realizado por el Cuerpo Técnico de Investigaciones (CTI) de la Fiscalía con apoyo de la Armada, Policía y Ejército en la región de Urabá, indicó el ente acusador en un comunicado.</p>
-                        <figure class="imagen-periodico">
-                            <img src="images/ContMod1_img01.jpg" class="img-responsive">
-                        </figure>
-                        <p>El contenedor iba a ser cargado en una motonave identificada como "Hsl Sheffield", que tenía como destino Europa, agregó.</p>
-                        <p>Las autoridades, que no reportaron capturas, indagan por los dueños de la cocaína, explicó a AFP una fuente de la Fiscalía.</p>
-                    </figure>
-                </section>
-            </div><!-- /.col-md-6 -->
-        </div><!-- /.row -->
-    </div><!-- /.container -->
-    <nav class="paginacion">
-        <ul class="pagination">
-          <li class="active"><span>&laquo;</span></li>
-          <li class="active"><span>1</span></li>
-          <li><a href="ContMod1Lec1-02.html">2</a></li>
-          <li><a href="ContMod1Lec2-01.html">3</a></li>
-          <li><a href="ContMod1Lec2-02.html">4</a></li>
-          <li><a href="ContMod1Lec2-03.html">5</a></li>
-          <li><a href="ContMod1Lec2-04.html">6</a></li>
-          <li><a href="ContMod1Lec2-05.html">7</a></li>
-          <li><a href="ContMod1Lec3-01.html">8</a></li>
-          <li><a href="ContMod1Lec4-01.html">9</a></li>
-          <li><a href="ContMod1Lec1-02.html">&raquo;</a></li>
-        </ul>
-    </nav>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-6">
+                        <h1>
+                            Curso de formación virtual
+                            <small>de integridad de la carga en Contenedores.</small>
+                        </h1>
+                    </div>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-3 hidden-xs">
+                        <img src="images/m1.png" class="img-responsive">
+                    </div>
+                    <div class="col-sm-1">&nbsp;</div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery-2.1.4.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
-    <script src="js/acciones.js"></script>
-  </body>
+                </div>
+            </div>
+            <nav class="barraNav" role="navigation">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <a class="moduloActual" href="ContMod1Lec1-01.html">
+                                Módulo 1
+                                <div class="triangulo hidden-xs"></div>
+                            </a>
+                            <button id="abrirMenu" class="btn btn-default"><i class="fa fa-bars"></i></button>
+                        </div><!-- /.col-sm-3 -->
+                        <div class="col-sm-9 vinculos">
+                            <div class="interCol hidden-xs">&nbsp;</div>
+                            <div class="row">
+                                <div class="col-sm-3 vinculo">
+                                    <a class="activo" href="ContMod1Lec1-01.html">Comencemos</a>
+                                </div><!-- /.col-sm-3 -->
+                                <div class="col-sm-3 vinculo">
+                                    <a href="ContMod1Lec2-01.html">Antecedentes del transporte de carga</a>
+                                </div><!-- /.col-sm-3 -->
+                                <div class="col-sm-3 vinculo">
+                                    <a href="ContMod1Lec3-01.html">La evolución en el manejo de mercancías</a>
+                                </div><!-- /.col-sm-3 -->
+                                <div class="col-sm-3 vinculo">
+                                    <a href="ContMod1Lec4-01.html">Practiquemos</a>
+                                </div><!-- /.col-sm-3 -->
+                            </div><!-- /.row -->
+                            <div class="finCol hidden-xs">&nbsp;</div>
+                        </div><!-- /.col-sm-3 -->
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </nav>
+        </header>
+        <div id="contenido" class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <section>
+                        <h1>Comencemos</h1>
+                        <figure class="sensei">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <img src="images/m5i.png" class="img-responsive">
+                                </div>
+                                <div class="col-xs-9">
+                                    <figcaption>
+                                        <br>
+                                        <h2>Bienvenido</h2>
+                                        <p>Las necesidades de mantener y mejorar el flujo del Comercio Internacional han hecho posible que se desarrollen nuevas tecnologías para el transporte de carga. Paralelamente los equipos de manejo y manipulación de mercancías se han ido adaptando a estos cambios, permitiendo con ello una evolución significativa de las técnicas de transporte y favoreciendo el intercambio de mercancías a través del mundo.</p>
+                                        <p>En este módulo observaremos en retrospectiva dichos avances; de modo que al finalizar, usted conocerá la evolución histórica de los medios de transporte y carga empleados en el Comercio Internacional y los antecedentes que dieron origen a la invención de los contenedores.</p>
+                                    </figcaption>
+                                </div>
+                            </div><!-- /.row -->
+                        </figure>
+                    </section>
+                </div><!-- /.col-md-12 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+        <nav class="paginacion">
+            <ul class="pagination">
+                <li class="active"><span>&laquo;</span></li>
+                <li class="active"><span>1</span></li>
+                <li><a href="ContMod1Lec2-01.html">2</a></li>
+                <li><a href="ContMod1Lec2-02.html">3</a></li>
+                <li><a href="ContMod1Lec3-01.html">4</a></li>
+                <li><a href="ContMod1Lec3-02.html">5</a></li>
+                <li><a href="ContMod1Lec4-01.html">6</a></li>
+                <li><a href="ContMod1Lec2-01.html">&raquo;</a></li>
+            </ul>
+        </nav>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+        <script src="js/acciones.js"></script>
+    </body>
 </html>

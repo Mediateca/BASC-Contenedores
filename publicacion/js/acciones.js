@@ -46,6 +46,14 @@ $(function(){
     }).click(function(evento) {
         evento.preventDefault();
     }).prepend('<i class="fa fa-book"></i>&nbsp;');
+    $('a.glosario').popover({
+        'container': 'body',
+        'placement': 'auto top',
+        'html': true,
+        'title': 'Glosario'
+    }).click(function(evento) {
+        evento.preventDefault();
+    }).prepend('<i class="fa fa-book"></i>&nbsp;');
     $('.lineaTiempo a').click(function(evento) {
         evento.preventDefault();
     }).popover({
