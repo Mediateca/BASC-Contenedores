@@ -1,0 +1,1621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$module$/Evaluación Final/Nivel I - Preguntas Evaluación Final</text>
+
+    </category>
+  </question>
+
+<!-- question: 539  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">La modalidad de transporte en la cual el transportador se obliga a recibir el contenedor en las instalaciones del despachador y a entregarlo en las del consignatario es:</font> </p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>F.C.L.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>House to House.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>House to pier.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 548  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 10</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">En la inspección del área interna del evaporador, en contenedores refrigerados, es más efectivo el uso de : </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>La simple inspección visual.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Detectores electrónicos o equipos caninos.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Los registros fílmicos fotográficos y documentales.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 549  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 11</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">Los grandes mercados nacionales e internacionales se crean en: </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>La etapa preindustrial.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Los años 50.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>La revolución industrial.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 550  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 12</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">En la etapa preindustrial, el transporte de grandes mercancías se hacía: </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Por mar, en cocas y carabelas.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Por ferrocarril.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>A lomo de animales.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 551  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 13</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">Un contenedor que no tiene techo ni paredes laterales, y las paredes del frente y atrás son abatibles es un: </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Open Side.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Open Top.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Flat  Rack.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 552  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 14</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">Los contenedores especialmente diseñados para productos líquidos como alcoholes, licores y jugos de frutas son los: </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Reefer.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Isotanque.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Aislados.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 553  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 15</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">El tipo de contenedor recomendado para el manejo de carga que requiera ventilación es el: </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Open Top.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Flat rack.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Open Side.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 540  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">La empresa que presta en los puertos, los servicios de cargue, descargue, almacenamiento, practicaje, remolque, estiba y desestiba, es: </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>El controlador.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>El operador portuario.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>El agente naviero.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 541  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 3</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font face="arial,helvetica,sans-serif"><font size="2">En el transporte terrestre de contenedores, un aspecto a tener en cuenta en el control del vehículo es:</font></font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>La experiencia y actitud del conductor.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>El pase de conducción.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>El aspecto de la cabina.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$module$/Evaluación Final/Nivel III - Preguntas Evaluación Final</text>
+
+    </category>
+  </question>
+
+<!-- question: 589  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 31</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">El tipo de carga _______________, puede ser sólida con productos como minerales y cereales o líquida con combustibles, gases líquidos y licores. </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Suelta</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>A granel.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Unitarizada.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 590  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 32</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">El arrendatario debe ______________, si el daño es de magnitud tal, que ocasiona perjuicios al propietario. </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Reemplazar el contenedor.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Indemnizar al arrendador.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Reparar el contenedor.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 591  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 33</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">Una de las modalidades más empleadas como fraude en el transporte marítimo de contenedores, es ______________, con el único propósito de enviar droga. </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>La sustitución del contenedor.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>La creación de una exportación</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>La documentación legal.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 592  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 34</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font face="arial,helvetica,sans-serif"><font size="2">Los ______________ están fabricados con materiales que pueden ser rotos fácilmente con las manos. </font></font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Sellos indicativos.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Sellos de seguridad.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Los sellos de alta seguridad.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 593  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 35</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">El sello de ______________ está generalmente fabricado en materiales sintéticos como el nylon o el plástico . </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Torcer.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Cincha o tirón.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Cable.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 594  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 36</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">La Inspección Física de contenedores es _________________ del contenedor y la mercancía, que se da cuando la carga lo requiere o cuando lo solicita el importador. </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>El análisis de los documentos.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>La verificación Visual.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>La revisión de la carga.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 595  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 37</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font face="arial,helvetica,sans-serif" size="2">Para la revisión acústica de las partes del contenedor, es útil ___________________ como herramienta de inspección. </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>El metro digital.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>La Cámara fotográfica.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>El martillo de goma.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 596  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 38</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">La verificación del _________________ del contenedor, permitirá detectar si se han efectuado reparaciones impropias, recientes, o no ajustadas a normas internacionales estándar. </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Área del condensador.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Estado general.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Número del contenedor.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 597  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 39</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">La revisión del piso, puede hacerse mediante la _________________ , o simplemente caminando por el interior y a lo largo del contenedor. </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Prueba de sonido.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Medida con metro.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Detección de olores.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$module$/Evaluación Final/Nivel I - Preguntas Evaluación Final</text>
+
+    </category>
+  </question>
+
+<!-- question: 542  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 4</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">Uno de los indicios de control, al analizar el Manifiesto a Bordo es: </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>El puerto de destino no es conocido como puerto comercial.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Las dimensiones de la carga no corresponden a las dimensiones exteriores del contenedor.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Los documentos tienen tachaduras.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$module$/Evaluación Final/Nivel III - Preguntas Evaluación Final</text>
+
+    </category>
+  </question>
+
+<!-- question: 598  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 40</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">_________________ del contenedor deben tener igual cantidad de ondulaciones, simetría y a la misma altura. </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Las vigas.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Las puertas.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Los pisos.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$module$/Evaluación Final/Nivel I - Preguntas Evaluación Final</text>
+
+    </category>
+  </question>
+
+<!-- question: 543  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 5</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">Los sellos de alta seguridad, deben pasar los test de tensión, corte, resistencia e impacto y cumplir con los estándares establecidos por: </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>La norma ISO 6346.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>La norma ISO /PAS 17712.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>La norma ISO /PAS 28001.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 544  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 6</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">El procedimiento recomendado para verificar la integridad del contenedor antes del llenado, consiste en la revisión de: </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Sellos y  Cerraduras.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>7 puntos esenciales.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>17 puntos básicos.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 545  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 7</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">Para la revisión de las vigas y travesaños del contenedor, la herramienta de inspección recomendada es:</font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>El martillo de goma.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>El metro manual.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>La cámara de video.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 546  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 8</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">Uno de los sitios que debe inspeccionarse con detalle, por ser de las áreas más vulnerables del contenedor, son:</font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Los techos.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Las puertas.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Las paredes.</text>
+      <feedback format="html">
+        <text><![CDATA[<p></p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 547  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 9</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">Una buena manera de comprobar una reparación sospechosa, es:</font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Dejar evidencias fotográficas y/o fílmicas.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Aplicar las normas o estándares para reparaciones de contenedores.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Aplicar el buen sentido común y el sano criterio.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$module$/Evaluación Final/Nivel II - Preguntas Evaluación Final</text>
+
+    </category>
+  </question>
+
+<!-- question: 564  -->
+  <question type="truefalse">
+    <name>
+      <text>Pregunta 16</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">Una de los tipos de fraude más comunes en el transporte terrestre de contenedores, puede ser la entrega del contenedor en una dirección no mencionada en los documentos. </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="100" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 565  -->
+  <question type="truefalse">
+    <name>
+      <text>Pregunta 17</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">El arrendatario no está obligado a indemnizar al arrendador por los perjuicios que se hayan ocasionado al contendor, su mala calidad o condición de entrega. </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="0" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 566  -->
+  <question type="truefalse">
+    <name>
+      <text>Pregunta 18</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">En la modalidad de transporte Pier to Pier, el transportador se compromete a transportar el contenedor desde el muelle del puerto de origen hasta las instalaciones del consignatario en el lugar destino. </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="0" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 567  -->
+  <question type="truefalse">
+    <name>
+      <text>Pregunta 19</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">La principal función de <i>Conocimiento de Embarque Marítimo</i>, es d emostrar la existencia de un contrato de transporte y otorgar derechos sobre las mercancías a su poseedor. </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="100" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 568  -->
+  <question type="truefalse">
+    <name>
+      <text>Pregunta 20</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">Los contenedores de exportación, pueden utilizar simples sellos de seguridad.</font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="0" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 569  -->
+  <question type="truefalse">
+    <name>
+      <text>Pregunta 21</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">Para una adecuada inspección de contenedores es indispensable conocer la clase y tipo de contenedor que se va a evaluar, así como sus medidas estándar. </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="100" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 570  -->
+  <question type="truefalse">
+    <name>
+      <text>Pregunta 22</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">Los siete puntos esenciales en la inspección física de contenedores son: pared delantera, lado izquierdo, lado derecho, piso, techo interior/exterior, puertas interiores/exteriores y base. </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="100" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 571  -->
+  <question type="truefalse">
+    <name>
+      <text>Pregunta 23</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">Cuando una viga o un travesaño ha sido modificado y se encuentra macizo; su sonido se hace agudo y con eco de retorno. </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="0" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 572  -->
+  <question type="truefalse">
+    <name>
+      <text>Pregunta 24</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">Un contenedor estándar tiene 5 veces su número de identificación marcado en diferentes partes de su estructura. </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="0" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 573  -->
+  <question type="truefalse">
+    <name>
+      <text>Pregunta 25</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">En la inspección de las puertas del contenedor, se debe tener en cuenta que los remaches o tornillos que se usen, sean de cabeza redonda, y en el extremo la tuerca o hembra esté soldada. </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="100" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 574  -->
+  <question type="truefalse">
+    <name>
+      <text>Pregunta 26</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">La invención de la máquina de vapor hizo posible un avance espectacular en el transporte, ya que esta potente máquina podía aplicarse a diferentes medios de transporte. </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="100" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 575  -->
+  <question type="truefalse">
+    <name>
+      <text>Pregunta 27</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">En 1956, McLean hizo construir cajas metálicas con las dimensiones de sus trailers y sin el sistema de rodamiento, porque sabía que agregarían peso y ocuparían espacio vital a bordo de los buques.</font> </p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="100" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 576  -->
+  <question type="truefalse">
+    <name>
+      <text>Pregunta 28</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">Los contenedores poseen en cada una de sus esquinas, dispositivos que lo hacen fácil de manipular particularmente en el momento de su trasbordo de un medio de transporte a otro.</font> </p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="100" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 577  -->
+  <question type="truefalse">
+    <name>
+      <text>Pregunta 29</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">Las primeras tres letras del CÓDIGO BIC o alfa ISO, identifican a los contenedores propiamente dichos o contenedores de flete. </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="0" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 578  -->
+  <question type="truefalse">
+    <name>
+      <text>Pregunta 30</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">Los materiales que son peligrosos al mojarse, porque emiten gases inflamables en contacto con el agua hacen parte de la Clase 3: Líquidos inflamables, en la clasificación IMO de cargas peligrosas. </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="0" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>

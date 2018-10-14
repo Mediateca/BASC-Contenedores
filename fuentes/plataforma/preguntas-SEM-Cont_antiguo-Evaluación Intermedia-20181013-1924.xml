@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$module$/Evaluación Intermedia/Nivel I - Preguntas Evaluación Intermedia</text>
+
+    </category>
+  </question>
+
+<!-- question: 500  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">En la revolución industrial, el ferrocarril y el barco de vapor se convirtieron en los principales sistemas de transporte internacional de mercancías, porque: </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Se trataba de máquinas potentes como medios de transporte.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Tenían mayor capacidad y velocidad que otros medios de transporte de la época.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Porque en este periodo se crean los grandes mercados nacionales e internacionales.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$module$/Evaluación Intermedia/Nivel III - Preguntas Evaluación Intermedia</text>
+
+    </category>
+  </question>
+
+<!-- question: 526  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 17</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">Los contenedores clásicos o para carga general se conocen también como contenedores ______________ </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Estándar</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Dry</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Plataforma</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 527  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 18</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">Los contenedores poseen _______________ que facilitan su manipulación en el momento del trasbordo de un medio de transporte a otro. </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Travesaños en el piso.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Dispositivos esquineros.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Postes o pilares.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 528  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 19</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">Los ______________ son aquellos componentes del marco vertical del contenedor, ubicados en las esquinas, que se integran las estructuras del piso. </font></p>
+<p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Esquineros.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Postes o Pilares</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Travesaños.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$module$/Evaluación Intermedia/Nivel I - Preguntas Evaluación Intermedia</text>
+
+    </category>
+  </question>
+
+<!-- question: 501  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">El transporte marítimo ha evolucionado a pasos agigantados, a partir de la invención del contenedor, ya que: </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Hoy existen múltiples tipos de naves como los reefers y los buques multipropósito.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>A partir de entonces, se han generado nuevos tipos de barcos e infraestructuras portuarias.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Con su uso se logra mayor rapidez en las operaciones de cargue y descargue.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$module$/Evaluación Intermedia/Nivel III - Preguntas Evaluación Intermedia</text>
+
+    </category>
+  </question>
+
+<!-- question: 529  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 20</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">El contenedor mas recomendado para el transporte de carga seca voluminosa que no exceda los 2.70 metros de altura es el ______________ </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Open Top</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>High Cube</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Flat Rack</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 530  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 21</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">Productos como el fríjol, el arroz, el trigo y la lenteja, suelen transportarse en contenedores ______________ </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Graneleros.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Aislados.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Isotanques.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 531  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 22</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">En el alfa-código ISO, ______________, asegura la validez del registro y/o de la transmisión de datos. </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>El cuarto dígito</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>El dígito verificador</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>La primera letra</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 532  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 23</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">El <strong>CÓDIGO BIC </strong>fue estandarizado en 1972 bajo _________________, en su aparte: &quot;Contenedores para el transporte de mercancías codificación, identificación, y marcación”. </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>La norma I.S.O. 6436</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>La norma I.S.O. 6346</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>La norma I.S.O. 17712</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 533  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 24</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">Los más usados a nivel mundial son los equipos de ___________________, con un volumen interno aproximado de 32,6 m<sup>3</sup> y 66,7 m<sup>3</sup> respectivamente. </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>20 pies</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>20 y 30 pies</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>20 y 40 pies</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$module$/Evaluación Intermedia/Nivel I - Preguntas Evaluación Intermedia</text>
+
+    </category>
+  </question>
+
+<!-- question: 502  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 3</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">La infraestructura portuaria evoluciona de su fase artesanal a la fase industrial cuando:</font> </p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>A finales de los años 50, se empiezan a emplear cajas metálicas para el transporte de carga.</text>
+      <feedback format="html">
+        <text><![CDATA[<p></p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>En 1968, la Organización Internacional de Normas (ISO), establece los estándares de 20 y 40 pies de largo para los contenedores.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>A finales del siglo XIX, aparecen las grúas y los montacargas, para movilizar las mercancías.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 503  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 4</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">Según la Organización Internacional de Normalización ( I.S.O ) , un contenedor es: </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Un  equipo del transporte de carga, lo suficientemente fuerte para permitir su uso repetido y con un diseño que facilita el transporte por diferentes medios.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Un embalaje de grandes dimensiones utilizado para transportar objetos voluminosos o pesados.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Un recipiente amplio para depositar mercancías.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 504  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 5</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">Una de las ventajas generales en el uso de los contenedores es:</font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>El costo de construcción del contenedor, es muy bajo en comparación con otros equipos para el manejo de carga.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Permitir su fácil identificación, separación, múltiple transporte y manejo.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Ofrecer mayor fluidez en los trámites de la documentación.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 505  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 6</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">Una de las ventajas operativas que el uso de los contenedores ofrece es: </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>La especialización en el transporte de productos semirrefinados y piezas manufacturadas.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Su tamaño asegura visibilidad, evita pérdidas o daños.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Se reutilización para la construcción de bodegas, oficinas temporales, campamentos de obras en construcción, etc.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 506  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 7</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">Una de las ventajas para el usuario de contenedores es que su uso: </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Disminuye los costos de seguro a su cargo, debido a la seguridad en el manejo de las mercancías.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Reduce los gastos de almacenaje en tiempos de recesión.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Representa costos de mantenimiento y reparación mínimos.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 507  -->
+  <question type="multichoice">
+    <name>
+      <text>Pregunta 8</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">Los contenedores clásicos o para carga general están diseñados para: </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Transportar carga que requiera temperatura constante.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Transportar cualquier tipo de carga.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Transportar carga líquida o mercancías a granel.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$module$/Evaluación Intermedia/Nivel II - Preguntas Evaluación Intermedia</text>
+
+    </category>
+  </question>
+
+<!-- question: 514  -->
+  <question type="truefalse">
+    <name>
+      <text>Pregunta 10</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">En 1937, <strong>Malcom McLean</strong> hizo realidad su sueño con la invención del contenedor. </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="0" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 515  -->
+  <question type="truefalse">
+    <name>
+      <text>Pregunta 11</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">En 1968, la Organización Internacional de Normas (ISO), establece los estándares de 30 y 40 pies de largo para los contenedores. </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="0" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 516  -->
+  <question type="truefalse">
+    <name>
+      <text>Pregunta 12</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">Un contenedor es entonces, una gran caja metálica en la que pueden estibarse todo tipo de mercancías para ser manejadas como una sola unidad. </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="100" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 517  -->
+  <question type="truefalse">
+    <name>
+      <text>Pregunta 13</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">Los Reefer, los cisterna y las unidades para graneles secos, son contenedores para carga especial. </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="100" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 518  -->
+  <question type="truefalse">
+    <name>
+      <text>Pregunta 14</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">El Contenedor Flat Rack está especialmente diseñado para el manejo de carga que requiere ventilación. </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="0" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 519  -->
+  <question type="truefalse">
+    <name>
+      <text>Pregunta 15</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">Los códigos BIC- ISO, son una combinación alfanumérica de10 dígitos, que identifican a cada contenedor a lo largo de su existencia.</font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="0" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 520  -->
+  <question type="truefalse">
+    <name>
+      <text>Pregunta 16</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">Los contenedores que transportan cargas peligrosas deben llevar una señalización <strong>IMO, </strong>que nos indique el tipo y naturaleza de esta carga. </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="100" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 513  -->
+  <question type="truefalse">
+    <name>
+      <text>Pregunta 9</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><font size="2" face="arial,helvetica,sans-serif">El transporte marítimo, inicialmente orientó la construcción de buques al manejo de grandes cantidades de carga y posteriormente a la búsqueda de la flexibilidad y especialización conforme a la naturaleza de las mercancías a transportar. </font></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="100" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>
