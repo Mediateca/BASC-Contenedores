@@ -230,7 +230,7 @@ section>blockquote {
 .barraNav .vinculos a.activo,
 .barraNav .vinculos a:hover,
 .barraNav .moduloActual:hover {
-    color: #BBB;
+    color: #BBB !important;
     text-decoration: none;
 }
 #contenido {
