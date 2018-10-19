@@ -1,151 +1,198 @@
 <!DOCTYPE html>
 <html id="Cont" lang="es">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>BASC - Curso virtual de integridad de la carga en Contenedores</title>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>BASC - Curso virtual de integridad de la carga en Contenedores</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <!-- Estilo propio de la plantilla -->
-    <link href="css/estilos.css" rel="stylesheet">
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Font Awesome -->
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <!-- Estilo propio de la plantilla -->
+        <link href="css/estilos.css" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-1"></div>
-                <div class="col-sm-6">
-                    <h1>
-                        Curso de formación virtual
-                        <small>de integridad de la carga en Contenedores.</small>
-                    </h1>
-                </div>
-                <div class="col-sm-1"></div>
-                <div class="col-sm-3 hidden-xs">
-                    <img src="images/m1.png" class="img-responsive">
-                </div>
-                <div class="col-sm-1"></div>
-
-            </div>
-        </div>
-        <nav class="barraNav" role="navigation">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <header>
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-3">
-                        <a class="moduloActual" href="ContMod2Lec1-01.html">
-                            Módulo 2
-                            <div class="triangulo hidden-xs"></div>
-                        </a>
-                        <button id="abrirMenu" class="btn btn-default"><i class="fa fa-bars"></i></button>
-                    </div><!-- /.col-sm-3 -->
-                    <div class="col-sm-9 vinculos">
-                        <div class="interCol hidden-xs"></div>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-6">
+                        <h1>
+                            Curso de formación virtual
+                            <small>de integridad de la carga en Contenedores.</small>
+                        </h1>
+                    </div>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-3 hidden-xs">
+                        <img src="images/m1.png" class="img-responsive">
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+            <nav class="barraNav" role="navigation">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <a class="moduloActual" href="ContMod2Lec1-01.html">
+                                Módulo 2
+                                <div class="triangulo hidden-xs"></div>
+                            </a>
+                            <button id="abrirMenu" class="btn btn-default"><i class="fa fa-bars"></i></button>
+                        </div><!-- /.col-sm-3 -->
+                        <div class="col-sm-9 vinculos">
+                            <div class="interCol hidden-xs">&nbsp;</div>
+                            <div class="row">
+                                <div class="col-sm-3 vinculo">
+                                    <a href="ContMod2Lec1-01.html">Definición y ventajas de los contenedores</a>
+                                </div><!-- /.col-sm-3 -->
+                                <div class="col-sm-3 vinculo">
+                                    <a href="ContMod2Lec2-01.html">Componentes y tipos de contenedores</a>
+                                </div><!-- /.col-sm-3 -->
+                                <div class="col-sm-3 vinculo">
+                                    <a class="activo" href="ContMod2Lec3-01.html">Características e identificación</a>
+                                </div><!-- /.col-sm-3 -->
+                                <div class="col-sm-3 vinculo">
+                                    <a href="ContMod2Lec4-01.html">Practiquemos</a>
+                                </div><!-- /.row -->
+                                <div class="finCol hidden-xs"></div>
+                            </div><!-- /.row -->
+                        </div><!-- /.col-sm-9 -->
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </nav>
+        </header>
+        <div id="contenido" class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <section>
+                        <h1>Identificación de contenedores</h1>
+                        <div class="col-md-6" style="float:right">
+                            <figure class="imgInline">
+                                <img src="images/ContMod2_img18.jpg">
+                            </figure>
+                        </div>
+                        <p>Además de las características específicas que nos permiten reconocer el tipo de contenedor para un adecuado seguimiento y control de la integridad de la carga, los contenedores exteriormente llevan las marcas distintivas de su propietario o de su operador, pero sobre todo cada contenedor tiene un número de identificación pintado, que conserva a lo largo de su existencia. Para ello, la norma ISO comprende un sistema de identificación internacional de los Contenedores llamado el <strong>CÓDIGO BIC o alfa ISO</strong>.</p>
+                        <p>Este código de identificación internacional de los contenedores propuesto por la oficina Internacional del Contenedor <strong>B.I.C.</strong> y su red mundial desde 1969; fue normalizado por la I.S.O. en 1972 y constituye una parte esencial de la norma I.S.O. 6346 en su aparte: <strong>"Contenedores para el transporte de mercancías, codificación, identificación y marcación"</strong>.</p>
+                        <p>Solo los alfa-códigos ISO identifican a los propietarios de contenedores registrados en el B.I.C. y pueden ser utilizados como marca de identidad única de los contenedores, en todos los documentos de transporte internacional y de despacho de aduanas.</p>
+                        <p>El código está constituido por una <strong>combinación alfanumérica de 11 dígitos</strong>.</p>
+                        <p>Las primeras <strong>tres letras</strong> identifican al propietario/operador y son asignadas a las compañías por el BIC, la <strong>cuarta letra</strong> toma los siguientes valores:</p>
+                        <ul>
+                            <li><strong>U</strong> para identificar a los contenedores propiamente dichos o contenedores de flete.</li>
+                            <li><strong>J</strong> para el equipo auxiliar adosable.</li>
+                            <li><strong>Z</strong> para chasis, remolques o trailers de transporte vial.</li>
+                        </ul>
+                        <p>Luego siguen <strong>6 dígitos numéricos</strong>. El B.I.C. no registra los 6 números de serie, que son dejados a la libre elección del propietario o el operador (desde el momento que asegura que cada número es atribuido una sola vez).</p>
+                        <p>Y por último, <strong>un dígito verificador</strong> para asegurar la correcta relación con los 10 anteriores, validar la puntualidad del registro y/o de la transmisión de datos. Este dígito verificador se calcula mediante un algoritmo basado en la asignación de valores numéricos al alfabeto. Los sistemas digitales efectúan este cálculo al momento del ingreso de un contenedor y la no validación del dígito, notifica al operador de que algún dato es incorrecto.</p>
+                        <figure class="imgInline">
+                            <img src="images/ContMod2_img19.jpg">
+                        </figure>
+                        <p>El CÓDIGO BIC además de permitirle a su  propietario o principal operador la identificación del contenedor con un número  de referencia para su base de datos (dimensiones, tipo, año de postura en  servicio, fecha de control, visitas de  mantenimiento, etc), facilita la circulación  internacional del contenedor y la admisión temporal, en materia aduanera y su control manual o automático por medio de  sistemas de control informático y/o a distancia, en todas las etapas de la  cadena de transporte.</p>
+                        <p>Así mismo es aceptado por:</p>
+                        <ul>
+                            <li>La Organización Mundial de las Aduanas (<strong>O.M.A</strong>). Y de numerosas administraciones aduaneras cuyo trabajo facilita en relación con Convenio Aduanero relativo a los Contenedores, el Convenio <a class="glosario" href="#" role="button" data-toggle="popover" data-trigger="focus" data-content="<strong>T.I.R</strong>: Convenio que regula el paso aduanero, entre países contratantes, de mercancías transportadas por carretera. Se trata de facilitar y acortar estos trámites para hacer más ágil el comercio internacional.">T.I.R</a>.</li>
+                            <li>La Asociación Internacional del Transporte aéreo (<strong>IATA</strong>), la cámara Internacional de la Marina Mercante (ICS), la Federación Internacional de los Mozos de mudanzas Internacionales (FIDI), la Unión Internacional de los Ferrocarriles (UIC), la Unión Internacional de los Transportes por carretera (IRU).</li>
+                            <li>110 países y cerca de 1200 propietarios u operadores, que representan más de 90 % de la flota mundial de contenedores.</li>
+                        </ul>
+                    </section>
+                </div><!-- /.col-md-6 -->
+                <div class="col-md-6">
+                    <section>
                         <div class="row">
-                            <div class="col-sm-3 vinculo">
-                                <a href="ContMod2Lec1-01.html">Antes de iniciar</a>
-                            </div><!-- /.col-sm-3 -->
-                            <div class="col-sm-3 vinculo">
-                                <a href="ContMod2Lec2-01.html">Alistemos herramientas</a>
-                            </div><!-- /.col-sm-3 -->
-                            <div class="col-sm-3 vinculo">
-                                 <a class="activo" href="ContMod2Lec3-01.html">Demostremos habilidades</a>
-                            </div><!-- /.col-sm-3 -->
-                            <div class="col-sm-3 vinculo">
-                                <a href="ContMod2Lec4-01.html">Practiquemos</a>
-                            </div><!-- /.col-sm-3 -->
-                        </div><!-- /.row -->
-                        <div class="finCol hidden-xs"></div>
-                    </div><!-- /.col-sm-3 -->
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </nav>
-    </header>
-    <div id="contenido" class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <section>
-                    <figure class="sensei">
-                        <div class="row">
-                            <div class="col-xs-2">
-                                <img src="images/Audi_MiyaguiAsomado.png" class="img-responsive">
+                            <div class="col-md-6">
+                                <figure class="imgInline">
+                                    <img src="images/ContMod2_img20.jpg">
+                                </figure>
                             </div>
-                            <div class="col-xs-10">
-                                <figcaption>
-                                    <br>
-                                    <p>Ordene los pasos del proceso de Gestión de Riesgos que le aparecen a la izquierda en las casillas del lado derecho.</p>
-                                </figcaption>
+                            <div class="col-md-6">
+                                <p>También  es expuesto en el mundo entero, en una edición en papel del registro llamado "BIC-CÓDIGO" que se publica anualmente. La lista completa de los códigos BIC es  presentada y puesta al día mensualmente sobre el sitio <a href="http://www.bic-code.org/" target="_blank">www.bic-code.org</a>.</p>
                             </div>
                         </div>
-                    </figure>
-                    <div class="emparejamiento">
-                        <div class="row">
-                            <div class="col-xs-1 hidden-sm">&nbsp;</div>
-                            <div class="col-xs-5 arrastrable tipo2">
-                                <a href="#" data-destination="a">Identificar riesgos</a>
-                                <a href="#" data-destination="b">Analizar y clasificar riesgos</a>
-                                <a href="#" data-destination="c">Establecer controles operacionales</a>
-                                <a href="#" data-destination="d">Establecer actividades ante los riesgos</a>
-                                <p class="alert alert-info">Ha arrastrado todos los conceptos a su ubicación correcta. Lo logró con <span>0</span> aciertos y <span>0</span> errores.</p>
-                            </div><!-- /.col-xs-5 -->
-                            <div class="col-xs-5 destino tipo1">
-                                <a href="#" data-toggle="popover" data-content="" data-original-title="Paso 1" data-goal="a">Paso 1</a>
-                                <a href="#" data-toggle="popover" data-content="" data-original-title="Paso 2" data-goal="b">Paso 2</a>
-                                <a href="#" data-toggle="popover" data-content="" data-original-title="Paso 3" data-goal="c">Paso 3</a>
-                                <a href="#" data-toggle="popover" data-content="" data-original-title="Paso 4" data-goal="d">Paso 4</a>
-                            </div><!-- /.col-xs-5 -->
-                            <div class="col-xs-1 hidden-sm">&nbsp;</div>
-                        </div><!-- /.row -->
-                        <div class="row">
-                            <div class="col-xs-6">
-                                <div class="col-md-6">&nbsp;</div>
-                                <div class="col-md-6">
-                                    <h4 class="alert alert-success">Aciertos: <span>0</span></h4>
-                                </div><!-- /.col-md-6 -->
-                            </div><!-- /.col-xs-6 -->
-                            <div class="col-xs-6">
-                                <div class="col-md-6">
-                                    <h4 class="alert alert-warning">Errores: <span>0</span></h4>
-                                </div><!-- /.col-md-6 -->
-                                <div class="col-md-6">&nbsp;</div>
-                            </div><!-- /.col-xs-6 -->
-                        </div><!-- /.row -->
-                    </div><!-- /.emparejamiento -->
-                </section>
-            </div><!-- /.col-md-12 -->
-        </div><!-- /.row -->
-    </div><!-- /.container -->
-    <nav class="paginacion">
-        <ul class="pagination">
-          <li><a href="ContMod2Lec3-01.html">&laquo;</a></li>
-          <li><a href="ContMod2Lec1-01.html">1</a></li>
-          <li><a href="ContMod2Lec1-02.html">2</a></li>
-          <li><a href="ContMod2Lec2-01.html">3</a></li>
-          <li><a href="ContMod2Lec2-02.html">4</a></li>
-          <li><a href="ContMod2Lec2-03.html">5</a></li>
-          <li><a href="ContMod2Lec2-04.html">6</a></li>
-          <li><a href="ContMod2Lec3-01.html">7</a></li>
-          <li class="active"><span>8</span></li>
-          <li><a href="ContMod2Lec4-01.html">9</a></li>
-          <li><a href="ContMod2Lec4-01.html">&raquo;</a></li>
-        </ul>
-    </nav>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery-2.1.4.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
-    <script src="js/acciones.js"></script>
-  </body>
+                        <h2>Señalización IMO</h2>
+                        <p>Además del código B.I.C, cuando los contenedores  transportan cargas peligrosas deben llevar una señalización que identifique el tipo y naturaleza de esta carga. Esto es la Señalización de la Organización Marítima internacional - IMO  y responde a  la siguiente clasificación:</p>
+                        <h2>Clasificación IMO Cargas Peligrosas</h2>
+                        <div class="col-md-6" style="float:right">
+                            <figure class="imgInline">
+                                <img src="images/ContMod2_img21.jpg">
+                            </figure>
+                        </div>
+                        <p>La I.M.O divide las cargas peligrosas en nueve clases así:</p>
+                        <ul>
+                            <li><strong>Clase 1: Explosivos</strong><br />
+                                División 1.1: Explosivos con riesgo de explosión masiva.<br />
+                                División 1.2: Explosivos con riesgo de proyección.<br />
+                                División 1.3: Explosivos con riesgo predominante de incendio.<br />
+                                División 1.4: Explosivos sin riesgo significativo de explosión.<br />
+                                División 1.5: Explosivos muy insensibles; agentes explosivos.<br />
+                                División 1.6: Explosivos extremadamente insensibles</li>
+                            <li><strong>Clase 2: Gases comprimidos, licuados bajo presión</strong><br />
+                                División 2.1: Gases inflamables.<br />
+                                División 2.2: Gases no inflamables.<br />
+                                División 2.3: Gases venenosos.<br />
+                                División 2.4: Gases corrosivos.</li>
+                            <li><strong>Clase 3: Líquidos inflamables</strong><br />
+                                División 3.1: Punto de evaporación inferior a -18ºC o -0.4 ºF<br />
+                                División 3.2: Punto de evaporación entre -18ºC y 23ºC o -0.4 ºF y 73.4ºF<br />
+                                División 3.1: Punto de evaporación mayor de 23ºC ( 73.4ºF) y menor de 61ºC (141.8 ºF)</li>
+                            <li><strong>Clase 4: Sólidos inflamables</strong><br />
+                                División 4.1: Sólidos Inflamables.<br />
+                                División 4.2: Materiales espontáneamente combustibles. <br />
+                                División 4.3: Materiales que son peligrosos al mojarse, porque emiten gases inflamables en contacto con el agua.</li>
+                            <li><strong>Clase 5: Materiales oxidantes</strong><br />
+                                División 5.1: Oxidantes.<br />
+                                División 5.2: Peróxidos orgánicos.</li>
+                            <li><strong>Clase 6: Materiales tóxicos</strong><br />
+                                División 6.1: Materiales venenosos.<br />
+                                División 6.2: Materiales infecciosos.</li>
+                            <li><strong>Clase 7: Materiales radiactivos</strong></li>
+                            <li><strong>Clase 8: Materiales corrosivos</strong><br />
+                                Ácidos y álcalis.</li>
+                            <li><strong>Clase 9: Otros materiales peligrosos</strong><br />
+                                División 9.1: Misceláneos de mercancía peligrosa.<br />
+                                División 9.2: Sustancias peligrosas al medio ambiente.<br />
+                                División 9.3: Desechos peligrosos.</li>
+                        </ul>
+                        <div class="wrap-img-modal">
+                            <h3>Señales de la clasificación IMO</h3>
+                            <img src="images/ContMod2_img22.png" title="Señales de la clasificación IMO." class="img-responsive img-modal">
+                        </div>
+                    </section>
+                </div><!-- /.col-md-6 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+        <nav class="paginacion">
+            <ul class="pagination">
+                <li><a href="ContMod2Lec3-01.html">&laquo;</a></li>
+                <li><a href="ContMod2Lec1-01.html">1</a></li>
+                <li><a href="ContMod2Lec1-02.html">2</a></li>
+                <li><a href="ContMod2Lec2-01.html">3</a></li>
+                <li><a href="ContMod2Lec2-02.html">4</a></li>
+                <li><a href="ContMod2Lec3-01.html">5</a></li>
+                <li class="active"><span>6</span></li>
+                <li><a href="ContMod2Lec4-01.html">7</a></li>
+                <li><a href="ContMod2Lec4-01.html">&raquo;</a></li>
+            </ul>
+        </nav>
+        <!-- Modal -->
+        <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="Modal" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                </div>
+            </div>
+        </div>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+        <script src="js/acciones.js"></script>
+    </body>
 </html>

@@ -1,160 +1,670 @@
 <!DOCTYPE html>
 <html id="Cont" lang="es">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>BASC - Curso virtual de integridad de la carga en Contenedores</title>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>BASC - Curso virtual de integridad de la carga en Contenedores</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <!-- Estilo propio de la plantilla -->
-    <link href="css/estilos.css" rel="stylesheet">
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Font Awesome -->
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <!-- Estilo propio de la plantilla -->
+        <link href="css/estilos.css" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-1"></div>
-                <div class="col-sm-6">
-                    <h1>
-                        Curso de formación virtual
-                        <small>de integridad de la carga en Contenedores.</small>
-                    </h1>
-                </div>
-                <div class="col-sm-1"></div>
-                <div class="col-sm-3 hidden-xs">
-                    <img src="images/m1.png" class="img-responsive">
-                </div>
-                <div class="col-sm-1"></div>
-
-            </div>
-        </div>
-        <nav class="barraNav" role="navigation">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <header>
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-3">
-                        <a class="moduloActual" href="ContMod2Lec1-01.html">
-                            Módulo 2
-                            <div class="triangulo hidden-xs"></div>
-                        </a>
-                        <button id="abrirMenu" class="btn btn-default"><i class="fa fa-bars"></i></button>
-                    </div><!-- /.col-sm-3 -->
-                    <div class="col-sm-9 vinculos">
-                        <div class="interCol hidden-xs"></div>
-                        <div class="row">
-                            <div class="col-sm-3 vinculo">
-                                <a href="ContMod2Lec1-01.html">Antes de iniciar</a>
-                            </div><!-- /.col-sm-3 -->
-                            <div class="col-sm-3 vinculo">
-                                <a href="ContMod2Lec2-01.html">Alistemos herramientas</a>
-                            </div><!-- /.col-sm-3 -->
-                            <div class="col-sm-3 vinculo">
-                                 <a class="activo" href="ContMod2Lec3-01.html">Demostremos habilidades</a>
-                            </div><!-- /.col-sm-3 -->
-                            <div class="col-sm-3 vinculo">
-                                <a href="ContMod2Lec4-01.html">Practiquemos</a>
-                            </div><!-- /.col-sm-3 -->
-                        </div><!-- /.row -->
-                        <div class="finCol hidden-xs"></div>
-                    </div><!-- /.col-sm-3 -->
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </nav>
-    </header>
-    <div id="contenido" class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <section>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-6">
+                        <h1>
+                            Curso de formación virtual
+                            <small>de integridad de la carga en Contenedores.</small>
+                        </h1>
+                    </div>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-3 hidden-xs">
+                        <img src="images/m1.png" class="img-responsive">
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+            <nav class="barraNav" role="navigation">
+                <div class="container">
                     <div class="row">
-                        <div class="col-xs-1 hidden-sm">&nbsp;</div>
-                        <div class="col-md-10">
-                            <h2 class="altas centrado">Demostremos habilidades</h2>
-                            <figure class="sensei">
-                                <div class="row">
-                                    <div class="col-xs-2">
-                                        <img src="images/m7.png" class="img-responsive">
-                                    </div>
-                                    <div class="col-xs-10">
-                                        <figcaption>
-                                            <br>
-                                            <p>
-                                                Ya hemos recorrido los pasos de este camino. Es momento de demostrar sus habilidades.
-                                                <br>
-                                                A medida que vayan apareciendo, agarre y suelte los conceptos de la columna izquierda en la idea correspondiente del lado derecho.
-                                            </p>
-                                        </figcaption>
-                                    </div>
-                                </div><!-- /.row -->
-                            </figure>
-                        </div><!-- /.col-md-10 -->
-                        <div class="col-xs-1 hidden-sm">&nbsp;</div>
+                        <div class="col-sm-3">
+                            <a class="moduloActual" href="ContMod2Lec1-01.html">
+                                Módulo 2
+                                <div class="triangulo hidden-xs"></div>
+                            </a>
+                            <button id="abrirMenu" class="btn btn-default"><i class="fa fa-bars"></i></button>
+                        </div><!-- /.col-sm-3 -->
+                        <div class="col-sm-9 vinculos">
+                            <div class="interCol hidden-xs">&nbsp;</div>
+                            <div class="row">
+                                <div class="col-sm-3 vinculo">
+                                    <a href="ContMod2Lec1-01.html">Definición y ventajas de los contenedores</a>
+                                </div><!-- /.col-sm-3 -->
+                                <div class="col-sm-3 vinculo">
+                                    <a href="ContMod2Lec2-01.html">Componentes y tipos de contenedores</a>
+                                </div><!-- /.col-sm-3 -->
+                                <div class="col-sm-3 vinculo">
+                                    <a class="activo" href="ContMod2Lec3-01.html">Características e identificación</a>
+                                </div><!-- /.col-sm-3 -->
+                                <div class="col-sm-3 vinculo">
+                                    <a href="ContMod2Lec4-01.html">Practiquemos</a>
+                                </div><!-- /.col-sm-3 -->
+                            </div><!-- /.row -->
+                            <div class="finCol hidden-xs"></div>
+                        </div><!-- /.col-sm-9 -->
                     </div><!-- /.row -->
-                    <div class="emparejamiento">
-                        <div class="row">
-                            <div class="col-xs-1 hidden-sm">&nbsp;</div>
-                            <div class="col-xs-5 arrastrable tipo1">
-                                <a href="#" data-destination="a">Actividades esenciales que involucran diferentes áreas de la empresa y constituyen su razón de ser.</a>
-                                <a href="#" data-destination="b">Normalmente no son visibles para los clientes, pero que son fundamentales para los procesos misionales.</a>
-                                <a href="#" data-destination="c">Procesos que definen la planificación de mediano y largo plazo de la empresa. </a>
-                                <p class="alert alert-info">Ha arrastrado todos los conceptos a su ubicación correcta. Lo logró con <span>0</span> aciertos y <span>0</span> errores.</p>
-                            </div><!-- /.col-xs-5 -->
-                            <div class="col-xs-5 destino tipo2">
-                                <a href="#" data-toggle="popover" data-content="" data-original-title="Procesos misionales" data-goal="a">Procesos misionales</a>
-                                <a href="#" data-toggle="popover" data-content="" data-original-title="Procesos de apoyo" data-goal="b">Procesos de apoyo</a>
-                                <a href="#" data-toggle="popover" data-content="" data-original-title="Procesos estratégicos" data-goal="c">Procesos estratégicos</a>
-                            </div><!-- /.col-xs-5 -->
-                            <div class="col-xs-1 hidden-sm">&nbsp;</div>
-                        </div><!-- /.row -->
-                        <div class="row">
-                            <div class="col-xs-6">
-                                <div class="col-md-6">&nbsp;</div>
-                                <div class="col-md-6">
-                                    <h4 class="alert alert-success">Aciertos: <span>0</span></h4>
-                                </div><!-- /.col-md-6 -->
-                            </div><!-- /.col-xs-6 -->
-                            <div class="col-xs-6">
-                                <div class="col-md-6">
-                                    <h4 class="alert alert-warning">Errores: <span>0</span></h4>
-                                </div><!-- /.col-md-6 -->
-                                <div class="col-md-6">&nbsp;</div>
-                            </div><!-- /.col-xs-6 -->
-                        </div><!-- /.row -->
-                    </div><!-- /.emparejamiento -->
-                </section>
-            </div><!-- /.col-md-12 -->
-        </div><!-- /.row -->
-    </div><!-- /.container -->
-    <nav class="paginacion">
-        <ul class="pagination">
-          <li><a href="ContMod2Lec2-04.html">&laquo;</a></li>
-          <li><a href="ContMod2Lec1-01.html">1</a></li>
-          <li><a href="ContMod2Lec1-02.html">2</a></li>
-          <li><a href="ContMod2Lec2-01.html">3</a></li>
-          <li><a href="ContMod2Lec2-02.html">4</a></li>
-          <li><a href="ContMod2Lec2-03.html">5</a></li>
-          <li><a href="ContMod2Lec2-04.html">6</a></li>
-          <li class="active"><span>7</span></li>
-          <li><a href="ContMod2Lec3-02.html">8</a></li>
-          <li><a href="ContMod2Lec4-01.html">9</a></li>
-          <li><a href="ContMod2Lec3-02.html">&raquo;</a></li>
-        </ul>
-    </nav>
+                </div><!-- /.container -->
+            </nav>
+        </header>
+        <div id="contenido" class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <section>
+                        <h1>Características específicas</h1>
+                        <h2>Especificaciones de Contenedores para carga general</h2>
+                        <p>Cada tipo de contenedor tiene unas características específicas, como se muestra a continuación:</p>
+                        <div class="panel-group tablaComun celdasDerecha">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent=".tablaComun" class="collapsed" href="#item01">
+                                            CONTENEDOR ESTANDAR / CONVENCIONAL
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="item01" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <div class="col-md-9">
+                                                <p>Contenedor de acero con paredes y pisos corrugados, conveniente para cualquier carga que no requiera manejo especial.</p>
+                                                <p>Carga seca como herramientas, confecciones, muebles, artículos de cuero, material editorial, etc.</p>
+                                            </div>
+                                            <div class="col-md-3" style="float:right">
+                                                <figure class="imgInline">
+                                                    <img src="images/ContMod2_img11.jpg">
+                                                </figure>
+                                            </div>
+                                        </div><!-- /.row -->
+                                        <table class="table table-bordered table-striped">
+                                            <thead>
+                                                <tr class="info">
+                                                    <th>TIPO</th>
+                                                    <th colspan="3">DIMENSIONES INTERNAS</th>
+                                                    <th colspan="2">PESO EN Kg*</th>
+                                                    <th>CAPACIDAD</th>
+                                                </tr>
+                                                <tr>
+                                                    <th>PIES</th>
+                                                    <th>LARGO</th>
+                                                    <th>ANCHO</th>
+                                                    <th>ALTO</th>
+                                                    <th>CARGA MAX.</th>
+                                                    <th>TARA</th>
+                                                    <th>M<sup>3</sup></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="success">
+                                                    <th scope="row">DRY 20'</th>
+                                                    <td>5.906</td>
+                                                    <td>2.350</td>
+                                                    <td>2.392</td>
+                                                    <td>21.800</td>
+                                                    <td>2.250</td>
+                                                    <td>33.20</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">DRY 40'</th>
+                                                    <td>12.022</td>
+                                                    <td>2.352</td>
+                                                    <td>2.395</td>
+                                                    <td>26.520</td>
+                                                    <td>3.780</td>
+                                                    <td>67.70</td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot>
+                                                <tr class="info">
+                                                    <th scope="row" colspan="7">* En cada país varían los limites promedio permisibles para transporte por carretera y ferrovías.</th>
+                                                </tr>
+                                            </tfoot>
+                                        </table>
+                                    </div><!-- /.panel-body -->
+                                </div><!-- /.panel-collapse -->
+                            </div><!-- /.panel item01 -->
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent=".tablaComun" class="collapsed" href="#item02">
+                                            CONTENEDOR TECHO ABIERTO
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="item02" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <div class="col-md-9">
+                                                <p>Contenedor especial para manejo de carga que requiera ventilación.</p>
+                                                <p>Carga pesada como maquinaria agrícola e industrial, piezas y repuestos.</p>
+                                            </div>
+                                            <div class="col-md-3" style="float:right">
+                                                <figure class="imgInline">
+                                                    <img src="images/ContMod2_img12.jpg">
+                                                </figure>
+                                            </div>
+                                        </div><!-- /.row -->
+                                        <table class="table table-bordered table-striped">
+                                            <thead>
+                                                <tr class="info">
+                                                    <th>TIPO</th>
+                                                    <th colspan="3">DIMENSIONES INTERNAS</th>
+                                                    <th colspan="2">PESO EN Kg*</th>
+                                                    <th>CAPACIDAD</th>
+                                                </tr>
+                                                <tr class="subtitulo">
+                                                    <th>PIES</th>
+                                                    <th>LARGO</th>
+                                                    <th>ANCHO</th>
+                                                    <th>ALTO</th>
+                                                    <th>CARGA MAX.</th>
+                                                    <th>TARA</th>
+                                                    <th>M<sup>3</sup></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="success">
+                                                    <th scope="row">Open Top 20'</th>
+                                                    <td>5.905</td>
+                                                    <td>2.380</td>
+                                                    <td>2.380</td>
+                                                    <td>21.550</td>
+                                                    <td>2.250</td>
+                                                    <td>32.50</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">Open Top 40’</th>
+                                                    <td>12.022</td>
+                                                    <td>2.352</td>
+                                                    <td>2.395</td>
+                                                    <td>26.520</td>
+                                                    <td>3.780</td>
+                                                    <td>65.00</td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot>
+                                                <tr class="info">
+                                                    <th scope="row" colspan="7">* En cada país varían los limites promedio permisibles para transporte por carretera y ferrovías.</th>
+                                                </tr>
+                                            </tfoot>
+                                        </table>
+                                    </div><!-- /.panel-body -->
+                                </div><!-- /.panel-collapse -->
+                            </div><!-- /.panel item02 -->
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent=".tablaComun" class="collapsed" href="#item03">
+                                            CONTENEDOR HIGH CUBE
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="item03" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <div class="col-md-9">
+                                                <p>Carga seca voluminosa que no exceda los 2.70 metros de altura.</p>
+                                                <p>Confecciones, muebles, galleteria , productos químicos, material editorial, etc.</p>
+                                            </div>
+                                            <div class="col-md-3" style="float:right">
+                                                <figure class="imgInline">
+                                                    <img src="images/ContMod2_img13.jpg">
+                                                </figure>
+                                            </div>
+                                        </div><!-- /.row -->
+                                        <table class="table table-bordered table-striped">
+                                            <thead>
+                                                <tr class="info">
+                                                    <th>TIPO</th>
+                                                    <th colspan="3">DIMENSIONES INTERNAS</th>
+                                                    <th colspan="2">PESO EN Kg*</th>
+                                                    <th>CAPACIDAD</th>
+                                                </tr>
+                                                <tr>
+                                                    <th>PIES</th>
+                                                    <th>LARGO</th>
+                                                    <th>ANCHO</th>
+                                                    <th>ALTO</th>
+                                                    <th>CARGA MAX.</th>
+                                                    <th>TARA</th>
+                                                    <th>M<sup>3</sup></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="success">
+                                                    <th scope="row">40’</th>
+                                                    <td>12.024</td>
+                                                    <td>2.350</td>
+                                                    <td>2.697</td>
+                                                    <td>26.460</td>
+                                                    <td>3.250</td>
+                                                    <td>76.3</td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot>
+                                                <tr class="info">
+                                                    <th scope="row" colspan="7">* En cada país varían los limites promedio permisibles para transporte por carretera y ferrovías.</th>
+                                                </tr>
+                                            </tfoot>
+                                        </table>
+                                    </div><!-- /.panel-body -->
+                                </div><!-- /.panel-collapse -->
+                            </div><!-- /.panel item03 -->
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent=".tablaComun" class="collapsed" href="#item04">
+                                            CONTENEDOR PLATAFORMA
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="item04" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <div class="col-md-9">
+                                                <p>Plataforma con marco de acero y piso de madera, especialmente utilizada en carga sobredimensionada o extra pesada.</p>
+                                                <p>Maquinaria agrícola e industrial, automóviles ensamblados.</p>
+                                            </div>
+                                            <div class="col-md-3" style="float:right">
+                                                <figure class="imgInline">
+                                                    <img src="images/ContMod2_img14.jpg">
+                                                </figure>
+                                            </div>
+                                        </div><!-- /.row -->
+                                        <table class="table table-bordered table-striped">
+                                            <thead>
+                                                <tr class="info">
+                                                    <th>TIPO</th>
+                                                    <th colspan="3">DIMENSIONES INTERNAS</th>
+                                                    <th colspan="2">PESO EN Kg*</th>
+                                                    <th>CAPACIDAD</th>
+                                                </tr>
+                                                <tr>
+                                                    <th>PIES</th>
+                                                    <th>LARGO</th>
+                                                    <th>ANCHO</th>
+                                                    <th>ALTO</th>
+                                                    <th>CARGA MAX.</th>
+                                                    <th>TARA</th>
+                                                    <th>M<sup>3</sup></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="success">
+                                                    <th scope="row">20'</th>
+                                                    <td>6.058</td>
+                                                    <td>2.438</td>
+                                                    <td>0.335</td>
+                                                    <td>21.900</td>
+                                                    <td>2.250</td>
+                                                    <td>No Aplica</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">40’</th>
+                                                    <td>12.192</td>
+                                                    <td>2.438</td>
+                                                    <td>0.335</td>
+                                                    <td>40.800</td>
+                                                    <td>2.250</td>
+                                                    <td>No Aplica</td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot>
+                                                <tr class="info">
+                                                    <th scope="row" colspan="7">* En cada país varían los limites promedio permisibles para transporte por carretera y ferrovías.</th>
+                                                </tr>
+                                            </tfoot>
+                                        </table>
+                                    </div><!-- /.panel-body -->
+                                </div><!-- /.panel-collapse -->
+                            </div><!-- /.panel item04 -->
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent=".tablaComun" class="collapsed" href="#item05">
+                                            CONTENEDOR FLAT RACK
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="item05" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <div class="col-md-9">
+                                                <p>Contenedor de acero con paredes en extremos colapsibles, especialmente diseñado para carga pesada y ancha.</p>
+                                                <p>Maquinaria agrícola e industrial, automóviles ensamblados.</p>
+                                            </div>
+                                            <div class="col-md-3" style="float:right">
+                                                <figure class="imgInline">
+                                                    <img src="images/ContMod2_img15.jpg">
+                                                </figure>
+                                            </div>
+                                        </div><!-- /.row -->
+                                        <table class="table table-bordered table-striped">
+                                            <thead>
+                                                <tr class="info">
+                                                    <th>TIPO</th>
+                                                    <th colspan="3">DIMENSIONES INTERNAS</th>
+                                                    <th colspan="2">PESO EN Kg*</th>
+                                                    <th>CAPACIDAD</th>
+                                                </tr>
+                                                <tr>
+                                                    <th>PIES</th>
+                                                    <th>LARGO</th>
+                                                    <th>ANCHO</th>
+                                                    <th>ALTO</th>
+                                                    <th>CARGA MAX.</th>
+                                                    <th>TARA</th>
+                                                    <th>M<sup>3</sup></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="success">
+                                                    <th scope="row">20'</th>
+                                                    <td>5.860</td>
+                                                    <td>2.396</td>
+                                                    <td>2.310</td>
+                                                    <td>21.500</td>
+                                                    <td>2.250</td>
+                                                    <td>32</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">40'</th>
+                                                    <td>11.990</td>
+                                                    <td>2.338</td>
+                                                    <td>1.981</td>
+                                                    <td>26.280</td>
+                                                    <td>3.780</td>
+                                                    <td>56.60</td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot>
+                                                <tr class="info">
+                                                    <th scope="row" colspan="7">* En cada país varían los limites promedio permisibles para transporte por carretera y ferrovías.</th>
+                                                </tr>
+                                            </tfoot>
+                                        </table>
+                                    </div><!-- /.panel-body -->
+                                </div><!-- /.panel-collapse -->
+                            </div><!-- /.panel item05 -->
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent=".tablaComun" class="collapsed" href="#item06">
+                                            CONTENEDOR GRANELERO
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="item06" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <p>Contenedor especial para manejo de granos y cereales, como fríjol, arroz, trigo, lenteja.</p>
+                                        <table class="table table-bordered table-striped">
+                                            <thead>
+                                                <tr class="info">
+                                                    <th>TIPO</th>
+                                                    <th colspan="3">DIMENSIONES INTERNAS</th>
+                                                    <th colspan="2">PESO EN Kg*</th>
+                                                    <th>CAPACIDAD</th>
+                                                </tr>
+                                                <tr>
+                                                    <th>PIES</th>
+                                                    <th>LARGO</th>
+                                                    <th>ANCHO</th>
+                                                    <th>ALTO</th>
+                                                    <th>CARGA MAX.</th>
+                                                    <th>TARA</th>
+                                                    <th>M<sup>3</sup></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="success">
+                                                    <th scope="row">20'</th>
+                                                    <td>5.895</td>
+                                                    <td>2.350</td>
+                                                    <td>2.394</td>
+                                                    <td>21.900</td>
+                                                    <td>2.250</td>
+                                                    <td>32.45</td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot>
+                                                <tr class="info">
+                                                    <th scope="row" colspan="7">* En cada país varían los limites promedio permisibles para transporte por carretera y ferrovías.</th>
+                                                </tr>
+                                            </tfoot>
+                                        </table>
+                                    </div><!-- /.panel-body -->
+                                </div><!-- /.panel-collapse -->
+                            </div><!-- /.panel item06 -->
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent=".tablaComun" class="collapsed" href="#item07">
+                                            CONTENEDOR AISLADO
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="item07" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <p>Especialmente diseñado para el transporte de productos perecederos, como frutas, verduras y hortalizas.</p>
+                                        <table class="table table-bordered table-striped">
+                                            <thead>
+                                                <tr class="info">
+                                                    <th>TIPO</th>
+                                                    <th colspan="3">DIMENSIONES INTERNAS</th>
+                                                    <th colspan="2">PESO EN Kg*</th>
+                                                    <th>CAPACIDAD</th>
+                                                </tr>
+                                                <tr>
+                                                    <th>PIES</th>
+                                                    <th>LARGO</th>
+                                                    <th>ANCHO</th>
+                                                    <th>ALTO</th>
+                                                    <th>CARGA MAX.</th>
+                                                    <th>TARA</th>
+                                                    <th>M<sup>3</sup></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="success">
+                                                    <th scope="row">20'</th>
+                                                    <td>5.652</td>
+                                                    <td>2.235</td>
+                                                    <td>2.000</td>
+                                                    <td>17.820</td>
+                                                    <td>2.500</td>
+                                                    <td>26.35</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">40'</th>
+                                                    <td>11.790</td>
+                                                    <td>2.290</td>
+                                                    <td>2.130</td>
+                                                    <td>29.740</td>
+                                                    <td>4.650</td>
+                                                    <td>61.3</td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot>
+                                                <tr class="info">
+                                                    <th scope="row" colspan="7">* En cada país varían los limites promedio permisibles para transporte por carretera y ferrovías.</th>
+                                                </tr>
+                                            </tfoot>
+                                        </table>
+                                    </div><!-- /.panel-body -->
+                                </div><!-- /.panel-collapse -->
+                            </div><!-- /.panel item07 -->
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent=".tablaComun" class="collapsed" href="#item08">
+                                            CONTENEDOR REFRIGERADO O REEFER
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="item08" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <div class="col-md-9">
+                                                <p>Especialmente diseñado para  productos que requieren temperaturas constantes, abajo o encima del punto de congelación.</p>
+                                                <p>Productos cárnicos y marinos.</p>
+                                            </div>
+                                            <div class="col-md-3" style="float:right">
+                                                <figure class="imgInline">
+                                                    <img src="images/ContMod2_img16.jpg">
+                                                </figure>
+                                            </div>
+                                        </div><!-- /.row -->
+                                        <table class="table table-bordered table-striped">
+                                            <thead>
+                                                <tr class="info">
+                                                    <th>TIPO</th>
+                                                    <th colspan="3">DIMENSIONES INTERNAS</th>
+                                                    <th colspan="2">PESO EN Kg*</th>
+                                                    <th>CAPACIDAD</th>
+                                                </tr>
+                                                <tr>
+                                                    <th>PIES</th>
+                                                    <th>LARGO</th>
+                                                    <th>ANCHO</th>
+                                                    <th>ALTO</th>
+                                                    <th>CARGA MAX.</th>
+                                                    <th>TARA</th>
+                                                    <th>M<sup>3</sup></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="success">
+                                                    <th scope="row">20'</th>
+                                                    <td>5.496</td>
+                                                    <td>2.264</td>
+                                                    <td>2.275</td>
+                                                    <td>21.932</td>
+                                                    <td>3.200</td>
+                                                    <td>28.18</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">40'</th>
+                                                    <td>11.613</td>
+                                                    <td>2.269</td>
+                                                    <td>2.236</td>
+                                                    <td>28.077</td>
+                                                    <td>6.010</td>
+                                                    <td>58.76</td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot>
+                                                <tr class="info">
+                                                    <th scope="row" colspan="7">* En cada país varían los limites promedio permisibles para transporte por carretera y ferrovías.</th>
+                                                </tr>
+                                            </tfoot>
+                                        </table>
+                                    </div><!-- /.panel-body -->
+                                </div><!-- /.panel-collapse -->
+                            </div><!-- /.panel item08 -->
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent=".tablaComun" class="collapsed" href="#item09">
+                                            CONTENEDOR TANQUE
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="item09" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <div class="col-md-9">
+                                                <p>Especialmente diseñado para  productos líquidos.</p>
+                                                <p>Productos químicos, corrosivos, oxidantes, alcoholes, licores, jugos de frutas.</p>
+                                            </div>
+                                            <div class="col-md-3" style="float:right">
+                                                <figure class="imgInline">
+                                                    <img src="images/ContMod2_img17.jpg">
+                                                </figure>
+                                            </div>
+                                        </div><!-- /.row -->
+                                        <table class="table table-bordered table-striped">
+                                            <thead>
+                                                <tr class="info">
+                                                    <th>TIPO</th>
+                                                    <th colspan="3">DIMENSIONES INTERNAS</th>
+                                                    <th>PESO EN Kg*</th>
+                                                    <th>CAPACIDAD</th>
+                                                </tr>
+                                                <tr>
+                                                    <th>PIES</th>
+                                                    <th>LARGO</th>
+                                                    <th>ANCHO</th>
+                                                    <th>ALTO</th>
+                                                    <th>CARGA MAX.</th>
+                                                    <th>M<sup>3</sup></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="success">
+                                                    <th scope="row">20'</th>
+                                                    <td>5.906</td>
+                                                    <td>2.350</td>
+                                                    <td>2.392</td>
+                                                    <td>21.800</td>
+                                                    <td>33.20</td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot>
+                                                <tr class="info">
+                                                    <th scope="row" colspan="7">* En cada país varían los limites promedio permisibles para transporte por carretera y ferrovías.<br>Material interior: Acero inoxidable</th>
+                                                </tr>
+                                            </tfoot>
+                                        </table>
+                                    </div><!-- /.panel-body -->
+                                </div><!-- /.panel-collapse -->
+                            </div><!-- /.panel item09 -->
+                        </div><!-- /.panel-group -->
+                    </section>
+                </div><!-- /.col-md-12 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+        <nav class="paginacion">
+            <ul class="pagination">
+                <li><a href="ContMod2Lec2-02.html">&laquo;</a></li>
+                <li><a href="ContMod2Lec1-01.html">1</a></li>
+                <li><a href="ContMod2Lec1-02.html">2</a></li>
+                <li><a href="ContMod2Lec2-01.html">3</a></li>
+                <li><a href="ContMod2Lec2-02.html">4</a></li>
+                <li class="active"><span>5</span></li>
+                <li><a href="ContMod2Lec3-02.html">6</a></li>
+                <li><a href="ContMod2Lec4-01.html">7</a></li>
+                <li><a href="ContMod2Lec3-02.html">&raquo;</a></li>
+            </ul>
+        </nav>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery-2.1.4.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
-    <script src="js/acciones.js"></script>
-  </body>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+        <script src="js/acciones.js"></script>
+    </body>
 </html>

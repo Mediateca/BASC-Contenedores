@@ -31,6 +31,7 @@ var arrastreErrores = 0;
 var arrastreCont = 0;
 var numArrastrables = 0;
 var arrastreOrden = [];
+var imagenEmparejamiento = ['',0,''];
 $(function(){
     ajustarMenu();
     window.onresize = ajustarMenu;
@@ -87,6 +88,10 @@ $(function(){
         $('a.bocadillo').tooltip({'container': 'body'}).click(function(evento) {evento.preventDefault();});
     });
     if ($('.emparejamiento').html()) {
+        if ($('.imagen-emparejamiento').html()) {
+            var dataImg = $('.imagen-emparejamiento').attr('data-imagen');
+            imagenEmparejamiento = [dataImg.substr(0,dataImg.indexOf('.')-2),1,dataImg.substr(dataImg.indexOf('.'),4)];
+        }
         emparejamiento();
     }
     $('.esquemaCircular div.pasos div.paso a').click(function(evento) {
@@ -289,26 +294,33 @@ function verificarDrop(evento, obj) {
         $(evento.target).attr('data-content',contenido);
         $(obj.draggable).hide('scale', {percent: 0, easing:"easeInQuint"}, 500, finReducir);
     } else {
-        volverPosOriginal(obj);
+        volverPosOriginal(obj,true);
     }
     arrastreCorrecto = false;
     function finReducir() {
         arrastreCont++;
         arrastrarEmparejamiento();
+        if (imagenEmparejamiento[1] > 0) {
+            imagenEmparejamiento[1] = arrastreCont + 1;
+            var nombreImagen = 'images/' + imagenEmparejamiento[0] + dosDigitos(imagenEmparejamiento[1]) + imagenEmparejamiento[2]
+            $('.imagen-emparejamiento>img').attr('src',nombreImagen);
+        }
     }
 }
 function dropFuera(evento, obj) {
-    volverPosOriginal(obj);
+    volverPosOriginal(obj,false);
 }
-function volverPosOriginal(obj) {
+function volverPosOriginal(obj,dentro) {
     $(obj.draggable).addClass('posicionArrastrables', 500,'easeOutBounce', finPosOriginal);
     function finPosOriginal() {
         $(obj.draggable).removeClass('posicionArrastrables');
         $('.emparejamiento .alert.alert-success span').html(arrastreCont);
         $('.emparejamiento .alert.alert-warning span').html(arrastreErrores);
     }
-    arrastreCorrecto = false;
-    arrastreErrores++;
+    if (dentro) {
+        arrastreCorrecto = false;
+        arrastreErrores++;
+    }
 }
 function alistaArbol() {
     if (lienzoArbol) {
@@ -383,6 +395,15 @@ function ordenAleatorio(longitud) {
             random = Math.floor(Math.random()*longitud);
         }
         salida.push(random);
+    }
+    return salida;
+}
+function dosDigitos(num) {
+    var salida;
+    if (num < 10) {
+        salida = '0'+String(num);
+    } else {
+        salida = String(num);
     }
     return salida;
 }
