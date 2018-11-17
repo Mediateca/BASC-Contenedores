@@ -78,6 +78,43 @@ $color-neutro-oscuro: #61717D;
     color: #fff;
     font-weight: bold;
 }
+#Cont .graficoSimple div {
+    margin-bottom: 0;
+}
+#Cont .graficoSimple.estatico.secuencia .pos-der,
+#Cont .graficoSimple.estatico.secuencia .pos-inf,
+#Cont .graficoSimple.estatico.secuencia .pos-sup,
+#Cont .graficoSimple.estatico.secuencia .pos-izq {
+    position: absolute;
+}
+#Cont .graficoSimple.estatico.secuencia .pos-der {
+    right: -0.5em;
+    top: 3em;
+}
+#Cont .graficoSimple.estatico.secuencia .pos-inf {
+    bottom: -1.25em;
+    left: 4em;
+}
+#Cont .graficoSimple.estatico.secuencia.con-imagen .tipo1,
+#Cont .graficoSimple.estatico.secuencia.con-imagen .tipo2 {
+    overflow: hidden;
+    padding: 0;
+}
+#Cont .graficoSimple.estatico.secuencia.con-imagen figure {
+    width: 100%;
+    position: relative;
+    max-height: 5.5em;
+}
+#Cont .graficoSimple.estatico.secuencia.con-imagen figure img {
+    width: 100%;
+    height: auto;
+}
+#Cont .graficoSimple.estatico.secuencia.con-imagen figure figcaption {
+    position: absolute;
+    bottom: -0.5em;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
 #Cont .lineaTiempo div:after {
     border-top: 2px solid #924ba9;
 }
@@ -613,7 +650,8 @@ table.logos tr:not(:last-of-type) {
     border-radius: 5px;
     margin-bottom: 2em;
 }
-.graficoSimple a {
+.graficoSimple a,
+.graficoSimple div {
     display: block;
     min-height: 3em;
     padding: 1em;
@@ -1023,6 +1061,45 @@ table.logos tr:not(:last-of-type) {
     width: 40%;
     padding: 25px 0;
     text-align: center;
+}
+.modalidades {
+    background-color: #C1CDD4;
+    border-radius: 0.5em;
+    margin: 0 0 1em;
+}
+.modalidades>.titulo {
+    font-size: 1.25em;
+    text-align: center;
+    color: #fff;
+    background: #61717D;
+    border-radius: 0.4em 0.4em 0 0;
+    width: 100%;
+    margin-left: 0.05em;
+    padding-top: 0.5em;
+}
+.modalidades>.contenido {
+    padding: 0.75em;
+}
+.modalidades>.comparacion {
+    padding: 0.25em;
+}
+.modalidades>.comparacion div:nth-child(1) {
+    text-align: right;
+}
+.modalidades>.comparacion div:nth-child(2) {
+    text-align: center;
+}
+.modalidades>.comparacion div:nth-child(3) {
+    text-align: left;
+}
+#canal-panama {
+    width: 100%;
+    border: 0;
+    min-height: 640px;
+}
+#canal-panama header,
+.page_title_holder.clearfix {
+    display: none;
 }
 /* CSS media queries */
 @media (max-width: 767px) {
