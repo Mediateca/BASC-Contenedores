@@ -111,15 +111,6 @@ $(function(){
         'trigger': 'hover'
     });
 
-    if ($('#canal-panama')) {
-        var tiempo = window.setTimeout(function(){
-            console.log('CANAL',$('#canal-panama').html());
-            var externo = $("#canal-panama").contents().find("header");
-            externo.hide();
-            console.log('PARTE',externo);
-        },2000);
-    }
-
     $('.img-modal').wrap('<div class="wrap-img-modal"></div>').click(function() {
         $('#modal .modal-content').append('<div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="etiquetaModal">'+$(this).attr('title')+'</h4></div><div class="modal-body"><img src="'+$(this).attr('src')+'" class="img-responsive img-centrada"></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button></div>');
         $('#modal').modal();
