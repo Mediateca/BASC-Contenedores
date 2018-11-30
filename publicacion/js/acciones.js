@@ -81,7 +81,7 @@ $(function(){
         evento.preventDefault();
     }).popover({
         'container': 'body',
-        'placement': 'auto top',
+        //'placement': 'auto top',
         'trigger': 'click',
         'html': true
     }).on('shown.bs.popover', function () {
