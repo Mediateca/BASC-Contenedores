@@ -1,9 +1,9 @@
 /* global $ */
 // Ajustes para navegadores sin soporte ECMA-262 5ta edición, es decir, el cochino IE8
 if (!Array.prototype.indexOf) {
-    Array.prototype.indexOf = function (searchElement, fromIndex) {
-        if ( this === undefined || this === null ) {
-            throw new TypeError( '"this" is null or not defined' );
+    Array.prototype.indexOf = function(searchElement, fromIndex) {
+        if (this === undefined || this === null) {
+            throw new TypeError('"this" is null or not defined');
         }
         var length = this.length >>> 0; // Hack to convert object.length to a UInt32
         fromIndex = +fromIndex || 0;
@@ -16,7 +16,7 @@ if (!Array.prototype.indexOf) {
                 fromIndex = 0;
             }
         }
-        for (;fromIndex < length; fromIndex++) {
+        for (; fromIndex < length; fromIndex++) {
             if (this[fromIndex] === searchElement) {
                 return fromIndex;
             }
@@ -25,18 +25,18 @@ if (!Array.prototype.indexOf) {
     };
 }
 // Ahora si, el código de verdad
-var lienzoArbol,arrastrables;
+var lienzoArbol, arrastrables;
 var arrastreCorrecto = false;
 var arrastreErrores = 0;
 var arrastreCont = 0;
 var numArrastrables = 0;
 var arrastreOrden = [];
-var imagenEmparejamiento = ['',0,''];
-$(function(){
+var imagenEmparejamiento = ['', 0, ''];
+$(function() {
     ajustarMenu();
     window.onresize = ajustarMenu;
     $('#abrirMenu').click(function() {
-        $('.vinculos').toggle("slide", {direction: "up", easing:"easeInQuint"}, 'slow');
+        $('.vinculos').toggle("slide", { direction: "up", easing: "easeInQuint" }, 'slow');
     });
     alistaPresaberes();
     $('a.bibliografia').popover({
@@ -62,10 +62,10 @@ $(function(){
         'placement': 'auto top',
         'trigger': 'hover'
     }).prepend('<i class="fa fa-chevron-circle-up"></i><br>');
-    $('a.bocadillo').tooltip({'container': 'body'}).click(function(evento) {evento.preventDefault();});
+    $('a.bocadillo').tooltip({ 'container': 'body' }).click(function(evento) { evento.preventDefault(); });
     $('.arbol .rama').each(function(index) {
-        var margen = ($(this).parent().parent().height()-$(this).outerHeight(true))/2;
-        $(this).css('margin-top', margen+'px');
+        var margen = ($(this).parent().parent().height() - $(this).outerHeight(true)) / 2;
+        $(this).css('margin-top', margen + 'px');
     });
     $('.arbol a').click(function(evento) {
         evento.preventDefault();
@@ -84,13 +84,13 @@ $(function(){
         //'placement': 'auto top',
         'trigger': 'click',
         'html': true
-    }).on('shown.bs.popover', function () {
-        $('a.bocadillo').tooltip({'container': 'body'}).click(function(evento) {evento.preventDefault();});
+    }).on('shown.bs.popover', function() {
+        $('a.bocadillo').tooltip({ 'container': 'body' }).click(function(evento) { evento.preventDefault(); });
     });
     if ($('.emparejamiento').html()) {
         if ($('.imagen-emparejamiento').html()) {
             var dataImg = $('.imagen-emparejamiento').attr('data-imagen');
-            imagenEmparejamiento = [dataImg.substr(0,dataImg.indexOf('.')-2),1,dataImg.substr(dataImg.indexOf('.'),4)];
+            imagenEmparejamiento = [dataImg.substr(0, dataImg.indexOf('.') - 2), 1, dataImg.substr(dataImg.indexOf('.'), 4)];
         }
         emparejamiento();
     }
@@ -112,15 +112,15 @@ $(function(){
     });
 
     $('.img-modal').wrap('<div class="wrap-img-modal"></div>').click(function() {
-        $('#modal .modal-content').append('<div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="etiquetaModal">'+$(this).attr('title')+'</h4></div><div class="modal-body"><img src="'+$(this).attr('src')+'" class="img-responsive img-centrada"></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button></div>');
+        $('#modal .modal-content').append('<div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="etiquetaModal">' + $(this).attr('title') + '</h4></div><div class="modal-body"><img src="' + $(this).attr('src') + '" class="img-responsive img-centrada"></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button></div>');
         $('#modal').modal();
     }).after('<p>Haga clic sobre la imagen para ampliarla</p>');
     $('.obj-modal').wrap('<div class="wrap-obj-modal"></div>').click(function() {
-        $('#modal .modal-content').append('<div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="etiquetaModal">'+$(this).attr('title')+'</h4></div><div class="modal-body"><div class="loading"><i class="fa fa-spinner fa-spin fa-3x fa-fw"></i><span>Cargando...</span></div><object id="'+$(this).attr('data-id')+'" type="'+$(this).attr('data-type')+'" data="'+$(this).attr('data-src')+'" class="obj-modal">Su navegador no permite visualizar contenido interactivo.</object></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button></div>');
-        var estado = [false,false,false];
+        $('#modal .modal-content').append('<div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="etiquetaModal">' + $(this).attr('title') + '</h4></div><div class="modal-body"><div class="loading"><i class="fa fa-spinner fa-spin fa-3x fa-fw"></i><span>Cargando...</span></div><object id="' + $(this).attr('data-id') + '" type="' + $(this).attr('data-type') + '" data="' + $(this).attr('data-src') + '" class="obj-modal">Su navegador no permite visualizar contenido interactivo.</object></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button></div>');
+        var estado = [false, false, false];
         var a = document.getElementById("svgObject");
         a.style.opacity = "0";
-        $('#modal').on('shown.bs.modal', function (e) {
+        $('#modal').on('shown.bs.modal', function(e) {
             var timeoutID = window.setTimeout(function() {
                 a.style.opacity = "1";
                 $('.loading').hide();
@@ -128,27 +128,27 @@ $(function(){
                 var items = [];
                 var capas = [];
                 for (var i = 1; i <= 3; i++) {
-                    var nom = 'E50'+i+'_switch';
-                    var nomCapas = 'Ruta50'+i;
+                    var nom = 'E50' + i + '_switch';
+                    var nomCapas = 'Ruta50' + i;
                     items.push(svgDoc.getElementById(nom));
                     capas.push(svgDoc.getElementById(nomCapas));
                 }
                 items.forEach(function(item, i) {
-                    var pre = item.id.substr(0,4);
-                    var controlOn = svgDoc.getElementById(pre+'_control_on');
-                    var controlOff = svgDoc.getElementById(pre+'_control_off');
-                    var switchOn = svgDoc.getElementById(pre+'_on');
+                    var pre = item.id.substr(0, 4);
+                    var controlOn = svgDoc.getElementById(pre + '_control_on');
+                    var controlOff = svgDoc.getElementById(pre + '_control_off');
+                    var switchOn = svgDoc.getElementById(pre + '_on');
                     var capa = capas[i];
-                    controlOn.setAttribute('transform','translate(-50)');
-                    controlOff.setAttribute('transform','translate(-50)');
+                    controlOn.setAttribute('transform', 'translate(-50)');
+                    controlOff.setAttribute('transform', 'translate(-50)');
                     switchOn.setAttribute('opacity', 0);
                     capa.setAttribute('opacity', 0);
-                    item.addEventListener('click', function(ev){
-                        var finalPosX = estado[i]?-50:0;
-                        var switchOnOpacity = estado[i]?0:1;
+                    item.addEventListener('click', function(ev) {
+                        var finalPosX = estado[i] ? -50 : 0;
+                        var switchOnOpacity = estado[i] ? 0 : 1;
                         estado[i] = !estado[i];
-                        controlOn.setAttribute('transform','translate('+finalPosX+')');
-                        controlOff.setAttribute('transform','translate('+finalPosX+')');
+                        controlOn.setAttribute('transform', 'translate(' + finalPosX + ')');
+                        controlOff.setAttribute('transform', 'translate(' + finalPosX + ')');
                         switchOn.setAttribute('opacity', switchOnOpacity);
                         capa.setAttribute('opacity', switchOnOpacity);
                     });
@@ -157,36 +157,36 @@ $(function(){
         });
         $('#modal').modal();
     }).after('<p>Haga clic sobre la imagen para ampliarla</p>');
-    $('#modal').on('hidden.bs.modal', function (e) {
+    $('#modal').on('hidden.bs.modal', function(e) {
         $('#modal .modal-content').html('');
     });
     $('.img-modal-xl').wrap('<div class="wrap-img-modal-xl"></div>').click(function() {
-        $('#modalXL .modal-content').append('<div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="etiquetaModal">'+$(this).attr('title')+'</h4></div><div class="modal-body"><img src="'+$(this).attr('src')+'" class="img-responsive img-centrada"></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button></div>');
+        $('#modalXL .modal-content').append('<div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="etiquetaModal">' + $(this).attr('title') + '</h4></div><div class="modal-body"><img src="' + $(this).attr('src') + '" class="img-responsive img-centrada"></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button></div>');
         $('#modalXL').modal();
     }).after('<p>Haga clic sobre la imagen para ampliarla</p>');
-    $('#modalXL').on('hidden.bs.modal', function (e) {
+    $('#modalXL').on('hidden.bs.modal', function(e) {
         $('#modalXL .modal-content').html('');
     });
-    $('.seleccionable select').change(function(){
+    $('.seleccionable select').change(function() {
         var frase = $(this).parent();
         var numResp = $(frase).children('select').length;
         var puntaje = 0;
         var todos = true;
-        $(frase).children('select').each(function(){
-            if($(this).children('option:selected').val() == "") {
+        $(frase).children('select').each(function() {
+            if ($(this).children('option:selected').val() == "") {
                 todos = false;
             }
             puntaje += Number($(this).children('option:selected').val());
         });
-        if(todos) {
+        if (todos) {
             if (puntaje == numResp) {
-                $(frase).addClass('has-success alert alert-success').attr('role','alert').append('<i class="fa fa-check fa-lg form-control-feedback"></i>');
+                $(frase).addClass('has-success alert alert-success').attr('role', 'alert').append('<i class="fa fa-check fa-lg form-control-feedback"></i>');
             } else {
-                $(frase).addClass('has-error alert alert-danger').attr('role','alert').append('<i class="fa fa-times fa-lg form-control-feedback"></i>');
+                $(frase).addClass('has-error alert alert-danger').attr('role', 'alert').append('<i class="fa fa-times fa-lg form-control-feedback"></i>');
             }
-            $(frase).children('select').each(function(){
+            $(frase).children('select').each(function() {
                 $(this).unbind();
-                $(this).replaceWith('<span class="respuesta">'+$(this).children('option:selected').html()+'</span>');
+                $(this).replaceWith('<span class="respuesta">' + $(this).children('option:selected').html() + '</span>');
             });
         }
     });
@@ -201,30 +201,30 @@ $(function(){
         evento.preventDefault();
         var titulo = $(this).html();
         var url = $(this).attr('title');
-        var alto = Math.floor($(window).innerHeight()*0.8);
+        var alto = Math.floor($(window).innerHeight() * 0.8);
         $('#modal .modal-content')
-            .html('<iframe width="100%" height="'+alto+'" src="'+url+'" frameborder="0" allowfullscreen></iframe>')
-            .prepend('<div class="modal-header"><button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Cerrar</span></button><h4 class="modal-title">'+titulo+'</h4></div>');
-        $('#modal button.close').click(function(){
+            .html('<iframe width="100%" height="' + alto + '" src="' + url + '" frameborder="0" allowfullscreen></iframe>')
+            .prepend('<div class="modal-header"><button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Cerrar</span></button><h4 class="modal-title">' + titulo + '</h4></div>');
+        $('#modal button.close').click(function() {
             $('#modal .modal-header').remove();
             $('#modal .modal-content').html('');
             $('#modal').modal('hide');
         });
     });
     $('#listaDesplegable li span').hide();
-    $('#listaDesplegable li strong').click(function(){
-        $(this).next().show('slide','slow');
+    $('#listaDesplegable li strong').click(function() {
+        $(this).next().show('slide', 'slow');
     });
-    $('.tablaDesplegada tbody tr td:first-of-type').not('.celdaAbierta').click(function(){
+    $('.tablaDesplegada tbody tr td:first-of-type').not('.celdaAbierta').click(function() {
         var trigger = $(this);
         var titulo = $(trigger).parent().parent().parent().children('thead').children('tr').children('th');
         if ($(trigger).next().is(':visible')) {
-            $(titulo).hide(function(){
-                $(this).next().hide('slide', 'slow', function(){
-                    $(trigger).next().hide('slide', 'slow', function(){
-                        $(this).next().hide('slide', 'slow', function(){
-                            $(this).next().hide('slide', 'slow', function(){
-                                $(this).next().hide('slide', 'slow', function(){
+            $(titulo).hide(function() {
+                $(this).next().hide('slide', 'slow', function() {
+                    $(trigger).next().hide('slide', 'slow', function() {
+                        $(this).next().hide('slide', 'slow', function() {
+                            $(this).next().hide('slide', 'slow', function() {
+                                $(this).next().hide('slide', 'slow', function() {
                                     $(this).next().hide('slide', 'slow');
                                 });
                             });
@@ -233,11 +233,11 @@ $(function(){
                 });
             });
         } else {
-            $(titulo).show(function(){
-                $(trigger).next().show('slide', 'slow', function(){
-                    $(this).next().show('slide', 'slow', function(){
-                        $(this).next().show('slide', 'slow', function(){
-                            $(this).next().show('slide', 'slow', function(){
+            $(titulo).show(function() {
+                $(trigger).next().show('slide', 'slow', function() {
+                    $(this).next().show('slide', 'slow', function() {
+                        $(this).next().show('slide', 'slow', function() {
+                            $(this).next().show('slide', 'slow', function() {
                                 $(this).next().show('slide', 'slow');
                             });
                         });
@@ -248,20 +248,35 @@ $(function(){
     });
 }); // Fin de la function inicial
 function emparejamiento() {
+    var altoDrag, anchoDrag;
     arrastrables = [];
     numArrastrables = $('.emparejamiento .arrastrable a').length;
-    $('.emparejamiento .arrastrable a').each(function(){
+    $('.emparejamiento .arrastrable a').each(function() {
         arrastrables.push(this);
-    }).hide().draggable().click(function(evento) {
+    }).hide().draggable({ cursorAt: { left: 10, top: 10 } }).click(function(evento) {
         evento.preventDefault();
+    }).on('dragstart', function(e, u) {
+        altoDrag = $(this).height();
+        anchoDrag = $(this).width();
+        if ($(this).has('span').length === 0) {
+            var cont = $(this).html();
+            $(this).html('<span class="icono-drag"></span><span class="texto">' + cont + '</span>');
+        }
+        $(this).addClass('ondrag');
+    }).on('dragstop', function(e, u) {
+        $(this).height(altoDrag);
+        $(this).width(anchoDrag);
+        $(this).removeClass('ondrag');
+        var cont = $(this).children('span.texto').html();
+        $(this).html(cont);
     });
     $('.emparejamiento .destino a').droppable({
-        drop: function(event,ui) {
+        drop: function(event, ui) {
             arrastreCorrecto = true;
             verificarDrop(event, ui);
         },
-        out: function(event,ui) {
-            if (!arrastreCorrecto){
+        out: function(event, ui) {
+            if (!arrastreCorrecto) {
                 dropFuera(event, ui);
             }
         }
@@ -276,43 +291,49 @@ function emparejamiento() {
     arrastreOrden = ordenAleatorio(numArrastrables);
     arrastrarEmparejamiento();
 }
+
 function arrastrarEmparejamiento() {
     $('.emparejamiento .alert.alert-success span').html(arrastreCont);
     $('.emparejamiento .alert.alert-warning span').html(arrastreErrores);
     if (arrastreCont < numArrastrables) {
-        $(arrastrables[arrastreOrden[arrastreCont]]).show('slide', {direction: "up", easing:"easeInQuint"}, 1000);
+        $(arrastrables[arrastreOrden[arrastreCont]]).show('slide', { direction: "up", easing: "easeInQuint" }, 1000);
     } else {
         $('.emparejamiento .arrastrable p span:first-of-type').html(arrastreCont);
         $('.emparejamiento .arrastrable p span:last-of-type').html(arrastreErrores);
-        $('.emparejamiento .arrastrable p').show('slide', {direction: "up", easing:"easeInQuint"}, 1000);
+        $('.emparejamiento .arrastrable p').show('slide', { direction: "up", easing: "easeInQuint" }, 1000);
     }
 }
+
 function verificarDrop(evento, obj) {
-    if($(evento.target).data('goal') == $(obj.draggable).data('destination')) {
-        $(evento.target).children('.badge').html(Number($(evento.target).children('.badge').html())+1);
-        if ($(evento.target).attr('data-content') == "") {var salto="";} else {var salto = "<br>";}
-        var contenido = $(evento.target).attr('data-content')+salto+'<strong>'+$(evento.target).children('.badge').html()+'.</strong> '+$(obj.draggable).html();
-        $(evento.target).attr('data-content',contenido);
-        $(obj.draggable).hide('scale', {percent: 0, easing:"easeInQuint"}, 500, finReducir);
+    if ($(evento.target).data('goal') == $(obj.draggable).data('destination')) {
+        $(evento.target).children('.badge').html(Number($(evento.target).children('.badge').html()) + 1);
+        if ($(evento.target).attr('data-content') == "") { var salto = ""; } else { var salto = "<br>"; }
+        var contenido = $(evento.target).attr('data-content') + salto + '<strong>' + $(evento.target).children('.badge').html() + '.</strong> ' + $(obj.draggable).html();
+        $(evento.target).attr('data-content', contenido);
+        $(obj.draggable).hide('scale', { percent: 0, easing: "easeInQuint" }, 500, finReducir);
     } else {
-        volverPosOriginal(obj,true);
+        volverPosOriginal(obj, true);
     }
     arrastreCorrecto = false;
+
     function finReducir() {
         arrastreCont++;
         arrastrarEmparejamiento();
         if (imagenEmparejamiento[1] > 0) {
             imagenEmparejamiento[1] = arrastreCont + 1;
             var nombreImagen = 'images/' + imagenEmparejamiento[0] + dosDigitos(imagenEmparejamiento[1]) + imagenEmparejamiento[2]
-            $('.imagen-emparejamiento>img').attr('src',nombreImagen);
+            $('.imagen-emparejamiento>img').attr('src', nombreImagen);
         }
     }
 }
+
 function dropFuera(evento, obj) {
-    volverPosOriginal(obj,false);
+    volverPosOriginal(obj, false);
 }
-function volverPosOriginal(obj,dentro) {
-    $(obj.draggable).addClass('posicionArrastrables', 500,'easeOutBounce', finPosOriginal);
+
+function volverPosOriginal(obj, dentro) {
+    $(obj.draggable).addClass('posicionArrastrables', 500, 'easeOutBounce', finPosOriginal);
+
     function finPosOriginal() {
         $(obj.draggable).removeClass('posicionArrastrables');
         $('.emparejamiento .alert.alert-success span').html(arrastreCont);
@@ -323,40 +344,43 @@ function volverPosOriginal(obj,dentro) {
         arrastreErrores++;
     }
 }
+
 function alistaArbol() {
     if (lienzoArbol) {
         lienzoArbol.remove();
         lienzoArbol = null;
     }
-    lienzoArbol = Raphael('graficaArbol',$('#graficaArbol').width(),$('#graficaArbol').height());
+    lienzoArbol = Raphael('graficaArbol', $('#graficaArbol').width(), $('#graficaArbol').height());
     var nivel1 = $('.rama')[0];
     var pos1x = $(nivel1).outerWidth(true);
-    var pos1y = $(nivel1).position().top+Number($(nivel1).css('margin-top').slice(0,-2))+($(nivel1).outerHeight(false)/2);
+    var pos1y = $(nivel1).position().top + Number($(nivel1).css('margin-top').slice(0, -2)) + ($(nivel1).outerHeight(false) / 2);
     var yGral = $('.arbol').offset().top;
     var color = $(nivel1).css('border-color');
-    $(nivel1).parent().next().children('.row').children('div:first-of-type').children('.rama').each(function(index){
-        var pos2y = ($(this).offset().top-yGral)+($(this).outerHeight(false)/2);
-        var linea = lienzoArbol.path('M'+pos1x+','+pos1y+'L'+(pos1x+15)+','+pos1y+'L'+(pos1x+15)+','+pos2y+'L'+(pos1x+35)+','+pos2y);
+    $(nivel1).parent().next().children('.row').children('div:first-of-type').children('.rama').each(function(index) {
+        var pos2y = ($(this).offset().top - yGral) + ($(this).outerHeight(false) / 2);
+        var linea = lienzoArbol.path('M' + pos1x + ',' + pos1y + 'L' + (pos1x + 15) + ',' + pos1y + 'L' + (pos1x + 15) + ',' + pos2y + 'L' + (pos1x + 35) + ',' + pos2y);
         linea.attr('stroke', color);
         linea.attr('stroke-width', '2');
-        dibujaLineasArbol($(this),'.arbol',lienzoArbol);
+        dibujaLineasArbol($(this), '.arbol', lienzoArbol);
     });
 }
-function dibujaLineasArbol(origen,padre,papel) {
-    var pos1x = $(origen).offset().left-$(padre).offset().left+$(origen).outerWidth();
-    var pos1y = $(origen).offset().top-$(padre).offset().top+($(origen).outerHeight()/2);
+
+function dibujaLineasArbol(origen, padre, papel) {
+    var pos1x = $(origen).offset().left - $(padre).offset().left + $(origen).outerWidth();
+    var pos1y = $(origen).offset().top - $(padre).offset().top + ($(origen).outerHeight() / 2);
     var color = $(origen).css('border-color');
-    $(origen).parent().next().children('a').each(function(index){
-        var pos2y = ($(this).offset().top-$(padre).offset().top)+($(this).outerHeight(false)/2);
-        var linea = papel.path('M'+pos1x+','+pos1y+'L'+(pos1x+15)+','+pos1y+'L'+(pos1x+15)+','+pos2y+'L'+(pos1x+35)+','+pos2y);
+    $(origen).parent().next().children('a').each(function(index) {
+        var pos2y = ($(this).offset().top - $(padre).offset().top) + ($(this).outerHeight(false) / 2);
+        var linea = papel.path('M' + pos1x + ',' + pos1y + 'L' + (pos1x + 15) + ',' + pos1y + 'L' + (pos1x + 15) + ',' + pos2y + 'L' + (pos1x + 35) + ',' + pos2y);
         linea.attr('stroke', color);
         linea.attr('stroke-width', '2');
-        dibujaLineasArbol($(this),padre,papel);
+        dibujaLineasArbol($(this), padre, papel);
     });
 }
-function ajustarMenu(){
-    if(window.innerWidth < 768){
-        $('.vinculos').hide("slide", {direction: "up", easing:"easeInQuint"}, 'slow');
+
+function ajustarMenu() {
+    if (window.innerWidth < 768) {
+        $('.vinculos').hide("slide", { direction: "up", easing: "easeInQuint" }, 'slow');
     } else {
         $('.vinculos').show();
     }
@@ -364,6 +388,7 @@ function ajustarMenu(){
         alistaArbol();
     }
 }
+
 function alistaPresaberes() {
     var preguntas = new Array();
     $('#presaberes input[type="radio"]').each(function(index) {
@@ -371,17 +396,17 @@ function alistaPresaberes() {
             preguntas.push($(this).attr('name'));
         }
     });
-    for (var i=0;i<preguntas.length;i++){
+    for (var i = 0; i < preguntas.length; i++) {
         var respuestas = new Array();
-        $('#presaberes input[name="'+preguntas[i]+'"]').each(function(index) {
+        $('#presaberes input[name="' + preguntas[i] + '"]').each(function(index) {
             respuestas.push($(this).parent().html());
         });
-        var nuevoOrden = ordenAleatorio($('#presaberes input[name="'+preguntas[i]+'"]').length);
-        $('#presaberes input[name="'+preguntas[i]+'"]').parent().each(function(index) {
+        var nuevoOrden = ordenAleatorio($('#presaberes input[name="' + preguntas[i] + '"]').length);
+        $('#presaberes input[name="' + preguntas[i] + '"]').parent().each(function(index) {
             $(this).html(respuestas[nuevoOrden[index]]);
         });
     }
-    $('#presaberes button').click(function(){
+    $('#presaberes button').click(function() {
         $('#presaberes input[value="error"]').parent().parent().addClass('has-error').append('<i class="fa fa-times fa-lg form-control-feedback"></i>');
         $('#presaberes input[value="correcto"]').parent().parent().addClass('has-success').append('<i class="fa fa-check fa-lg form-control-feedback"></i>');
         $(this).unbind();
@@ -390,19 +415,20 @@ function alistaPresaberes() {
 
 function ordenAleatorio(longitud) {
     var salida = new Array();
-    for (var i=0;i<longitud;i++){
-        var random = Math.floor(Math.random()*longitud);
-        while (salida.indexOf(random)>-1) {
-            random = Math.floor(Math.random()*longitud);
+    for (var i = 0; i < longitud; i++) {
+        var random = Math.floor(Math.random() * longitud);
+        while (salida.indexOf(random) > -1) {
+            random = Math.floor(Math.random() * longitud);
         }
         salida.push(random);
     }
     return salida;
 }
+
 function dosDigitos(num) {
     var salida;
     if (num < 10) {
-        salida = '0'+String(num);
+        salida = '0' + String(num);
     } else {
         salida = String(num);
     }

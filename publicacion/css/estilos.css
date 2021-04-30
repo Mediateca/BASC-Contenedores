@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Vollkorn:400italic,700italic,400,700);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
 /*
 $color-primario-claro: #D0ACE4;
 $color-primario-oscuro: #4D007A;
@@ -8,47 +9,59 @@ $color-secundario-oscuro: #8939AD;
 $color-neutro-claro: #C1CDD4;
 $color-neutro-oscuro: #61717D;
 /* Colores por cada curso */
+
 #Cont body,
 #Cont .barraNav .finCol {
     background-color: #8939AD;
 }
+
 #Cont #contenido section {
     background-color: #AC75C6;
 }
+
 #Cont a {
     color: #e8e8e8;
 }
+
 #Cont #presaberes .radio.form-control {
     background: #323a45;
     border-color: #323a45;
 }
+
 #Cont .sabiaque {
     border: solid 2px #323a45;
     background-color: #323a45;
 }
+
 #Cont .sabiaque img {
     background-color: #AC75C6;
 }
+
 #Cont .btn-primary {
     background-color: #409e8f;
     border-color: #3d9889;
 }
+
 #Cont .btn-primary:hover {
     background-color: #358a7d;
     border-color: #318376;
 }
+
 #Cont .panel-danger {
     border-color: #a94442;
 }
+
 #Cont .panel-danger>.panel-heading {
     color: #fff;
     background-color: #a94442;
     border-color: #a94442;
 }
+
 #Cont nav.paginacion .pagination li span,
 #Cont nav.paginacion .pagination li a {
     background-color: #323a45;
 }
+
 #Cont .lineaTiempo div a.tipo1,
 #Cont .arbol a.tipo1,
 #Cont .graficoSimple a.tipo1,
@@ -60,6 +73,7 @@ $color-neutro-oscuro: #61717D;
     background-color: #74b233;
     border: 2px solid #bad89a;
 }
+
 #Cont .lineaTiempo div a.tipo2,
 #Cont .arbol a.tipo2,
 #Cont .graficoSimple a.tipo2,
@@ -71,6 +85,7 @@ $color-neutro-oscuro: #61717D;
     background-color: #3b8acd;
     border: 2px solid #1a6fb2;
 }
+
 #Cont .graficoSimple.estatico .tipo1,
 #Cont .graficoSimple.estatico .tipo2 {
     text-align: center;
@@ -78,67 +93,85 @@ $color-neutro-oscuro: #61717D;
     color: #fff;
     font-weight: bold;
 }
+
 #Cont .graficoSimple div {
     margin-bottom: 0;
 }
+
 #Cont .graficoSimple.estatico.secuencia .pos-der,
 #Cont .graficoSimple.estatico.secuencia .pos-inf,
 #Cont .graficoSimple.estatico.secuencia .pos-sup,
 #Cont .graficoSimple.estatico.secuencia .pos-izq {
     position: absolute;
 }
+
 #Cont .graficoSimple.estatico.secuencia .pos-der {
     right: -0.5em;
     top: 3em;
 }
+
 #Cont .graficoSimple.estatico.secuencia .pos-inf {
     bottom: -1.25em;
     left: 4em;
 }
+
 #Cont .graficoSimple.estatico.secuencia.con-imagen .tipo1,
 #Cont .graficoSimple.estatico.secuencia.con-imagen .tipo2 {
     overflow: hidden;
     padding: 0;
 }
+
 #Cont .graficoSimple.estatico.secuencia.con-imagen figure {
     width: 100%;
     position: relative;
     max-height: 5.5em;
 }
+
 #Cont .graficoSimple.estatico.secuencia.con-imagen figure img {
     width: 100%;
     height: auto;
 }
+
 #Cont .graficoSimple.estatico.secuencia.con-imagen figure figcaption {
     position: absolute;
     bottom: -0.5em;
     width: 100%;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
 }
+
 #Cont .lineaTiempo div:after {
     border-top: 2px solid #924ba9;
 }
+
 #Cont .lineaTiempo div:first-of-type:before,
 #Cont .lineaTiempo div:last-of-type:before,
 #Cont .seleccionable {
     background-color: #8939AD;
 }
+
 #Cont .lineaTiempo h2:after {
     background-image: url(../images/Cont_LineaTiempo.png);
 }
+
 #Cont blockquote {
     border-left: 5px solid #8939AD;
 }
+
+
 /* Estilos generales para todos los cursos */
+
 blockquote div.cita {
     text-align: right;
 }
+
 blockquote div.cita p {
     margin-bottom: 0;
 }
+
 .tabla thead tr th {
     vertical-align: middle;
 }
+
 .math {
     position: relative;
     background-color: #fffff0;
@@ -150,6 +183,7 @@ blockquote div.cita p {
     padding: 20px 10px 10px 10px;
     box-shadow: inset 2px 2px 2px 1px rgba(0, 0, 0, 0.6);
 }
+
 .math:before {
     background-image: url(../images/fondoMath.png);
     content: ' ';
@@ -163,6 +197,7 @@ blockquote div.cita p {
     opacity: 0.4;
     border-radius: 5px;
 }
+
 .math:after {
     background-image: url(../images/calc.png);
     background-repeat: no-repeat;
@@ -180,31 +215,39 @@ blockquote div.cita p {
     -webkit-background-size: cover;
     background-size: cover;
 }
+
 header {
     color: #fff;
 }
+
 header h1 {
     font-size: 36px;
     margin-top: 80px;
 }
+
 header h1 small {
     font-size: 18px;
     color: #FFF;
     display: block;
     line-height: 1.25;
 }
+
 section>blockquote {
     font-size: 12px;
 }
+
 .altas {
     text-transform: uppercase;
 }
+
 .centrado {
     text-align: center;
 }
+
 .barraNav {
     height: 65px;
 }
+
 .barraNav .moduloActual {
     display: block;
     background-color: #323a45;
@@ -214,6 +257,7 @@ section>blockquote {
     text-align: center;
     color: #FFF;
 }
+
 .barraNav .moduloActual .triangulo {
     width: 0px;
     height: 0px;
@@ -229,9 +273,11 @@ section>blockquote {
     top: 59px;
     right: 15px;
 }
+
 #abrirMenu {
     display: none;
 }
+
 .barraNav .interCol {
     background-image: url(../images/fondoNavUl.png);
     height: 59px;
@@ -240,6 +286,7 @@ section>blockquote {
     left: -15px;
     background-position: 1px;
 }
+
 .barraNav .finCol {
     height: 59px;
     width: 15px;
@@ -248,15 +295,18 @@ section>blockquote {
     background-position: 1px;
     top: 0px;
 }
+
 .barraNav .vinculos {
     background-image: url(../images/fondoNavUl.png);
     margin-top: 6px;
     height: 59px;
 }
+
 .barraNav .vinculo {
     display: table;
     height: 59px;
 }
+
 .barraNav .vinculos a {
     display: table-cell;
     color: #FFF;
@@ -264,36 +314,43 @@ section>blockquote {
     text-align: center;
     vertical-align: middle;
 }
+
 .barraNav .vinculos a.activo,
 .barraNav .vinculos a:hover,
 .barraNav .moduloActual:hover {
     color: #BBB !important;
     text-decoration: none;
 }
-#contenido {
-}
+
+#contenido {}
+
 #contenido section {
     border-radius: 10px;
     padding: 22px 18px;
-    box-shadow: 0 0 8px rgba(0,0,0,.3);
+    box-shadow: 0 0 8px rgba(0, 0, 0, .3);
     margin-top: 18px;
 }
+
 #contenido section h1 {
     font-size: 24px;
     color: #fff;
     margin: 0 0 10px;
 }
+
 #contenido section h2 {
     font-size: 20px;
     color: #fff;
     margin: 0 0 10px;
 }
+
 #contenido section figure {
     margin-bottom: 10px;
 }
+
 nav.paginacion {
     text-align: center;
 }
+
 nav.paginacion .pagination li span,
 nav.paginacion .pagination li a {
     display: inline-block;
@@ -307,15 +364,18 @@ nav.paginacion .pagination li a {
     border: none;
     margin-left: 5px;
 }
+
 nav.paginacion .pagination li a:hover,
 nav.paginacion .pagination li.active span,
 nav.paginacion .pagination li.active a {
     color: #BBB;
 }
+
 nav.paginacion .pagination li.disabled span,
 nav.paginacion .pagination li.disabled a {
-    background-color: rgba(53,170,217,0.5);
+    background-color: rgba(53, 170, 217, 0.5);
 }
+
 figure.imgInline {
     padding: 4px;
     margin-bottom: 20px !important;
@@ -326,19 +386,23 @@ figure.imgInline {
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
 }
+
 figure.imgInline img {
     max-width: 100%;
     height: auto !important;
 }
+
 figure.imgInline figcaption {
     font-size: 12px;
     text-align: right;
     margin-top: 4px;
 }
+
 figure.sensei .img-responsive {
     max-height: 300px;
     margin-left: auto;
 }
+
 figure.sensei figcaption {
     border: solid 2px #323a45;
     background-color: #323a45;
@@ -348,10 +412,12 @@ figure.sensei figcaption {
     padding-bottom: 15px;
     color: #fff;
 }
+
 figure.sensei figcaption h2 {
     font-size: 22px;
     text-align: center;
 }
+
 figure.sensei figcaption:before {
     content: "<";
     display: block;
@@ -366,6 +432,7 @@ figure.sensei figcaption:before {
     text-indent: 99999px;
     overflow: hidden;
 }
+
 figure.sensei.derecha figcaption:before {
     content: ">";
     left: inherit;
@@ -374,6 +441,7 @@ figure.sensei.derecha figcaption:before {
     border-width: 10px 0 10px 17.3px;
     border-color: transparent transparent transparent #323a45;
 }
+
 figure.periodico-inicio,
 figure.periodico-final {
     background-color: #EEEEE0;
@@ -381,6 +449,7 @@ figure.periodico-final {
     box-shadow: 2px 2px 10px #333;
     border-radius: 2px;
 }
+
 figure.periodico-inicio h1 {
     color: #000 !important;
     font-family: 'Vollkorn', serif;
@@ -388,33 +457,40 @@ figure.periodico-inicio h1 {
     text-align: center;
     margin-top: 20px !important;
 }
+
 figure.periodico-inicio h2 {
     font-size: 20px;
     margin-top: 0;
     margin-bottom: 25px;
     color: #000 !important;
 }
+
 figure.periodico-inicio a,
 figure.periodico-final a {
     color: #337ab7 !important;
 }
+
 figure.periodico-inicio>figcaption,
 figure.periodico-final>figcaption {
     font-style: italic;
 }
+
 figure.periodico-inicio>figure.imagen-periodico {
     position: relative;
 }
+
 figure.periodico-inicio>figure.imagen-periodico>figcaption {
     display: block;
     position: absolute;
     bottom: 5px;
     right: 5px;
 }
+
 figure.periodico-inicio>figure.imagen-periodico>figcaption>a {
     font-size: 10px;
     text-decoration: none;
 }
+
 figure.periodico-inicio:before {
     content: "NotiBASC";
     text-transform: uppercase;
@@ -429,56 +505,68 @@ figure.periodico-inicio:before {
     text-align: center;
     color: #000;
 }
+
 figure.periodico-inicio img,
 figure.periodico-final img {
-    background-color: rgba(255,255,255,0.75);
+    background-color: rgba(255, 255, 255, 0.75);
     padding: 20px;
     border-radius: 10px;
 }
+
 #presaberes .radio {
     padding: 6px 12px 6px 30px;
     color: #fff;
     height: inherit;
 }
+
 #presaberes .radio.has-success,
 .seleccionable.has-success {
     border-color: #3c763d;
 }
+
 #presaberes .radio.has-error,
 .seleccionable.has-error {
     border-color: #a94442;
 }
+
 #presaberes i.form-control-feedback,
 .seleccionable i.form-control-feedback {
     margin-top: 8px;
     float: right;
 }
+
 a.bibliografia,
 a.glosario {
     white-space: nowrap;
     color: #C1CDD4 !important;
 }
+
 a.bibliografia:hover,
 a.glosario:hover {
     text-decoration: none;
 }
+
 a.fuente-externa {
     color: #337ab7 !important;
 }
+
 .sabiaque {
     color: #fff;
     padding: 1em;
     border-radius: 15px;
     margin-bottom: 20px !important;
 }
+
 .sabiaque.derecha img {
     float: right;
     margin-left: 1.5em;
 }
+
 .sabiaque.izquierda img {
     float: left;
     margin-right: 1.5em;
 }
+
 .sabiaque img {
     width: 7em;
     height: auto;
@@ -486,9 +574,11 @@ a.fuente-externa {
     margin-bottom: 1em;
     border-radius: 50%;
 }
+
 .sabiaque figcaption {
     text-align: justify;
 }
+
 .lineaTiempo h2 {
     font-size: 28px;
     text-transform: uppercase;
@@ -497,10 +587,12 @@ a.fuente-externa {
     letter-spacing: -0.05em;
     position: relative;
 }
+
 .lineaTiempo h2 span {
     font-weight: bolder;
     letter-spacing: 0;
 }
+
 .lineaTiempo h2:after {
     content: "";
     display: block;
@@ -512,13 +604,16 @@ a.fuente-externa {
     background-repeat: no-repeat;
     background-size: contain;
 }
+
 .lineaTiempo div {
     position: relative;
     height: 75px;
 }
+
 .lineaTiempo.grande div {
     height: 95px;
 }
+
 .lineaTiempo div:after {
     content: "";
     display: block;
@@ -527,6 +622,7 @@ a.fuente-externa {
     top: 25px;
     z-index: 0;
 }
+
 .lineaTiempo div:first-of-type:before {
     content: "";
     display: block;
@@ -537,6 +633,7 @@ a.fuente-externa {
     top: 21px;
     z-index: 1;
 }
+
 .lineaTiempo div:last-of-type:before {
     content: "";
     display: block;
@@ -548,6 +645,7 @@ a.fuente-externa {
     right: 0;
     z-index: 2;
 }
+
 .lineaTiempo div a {
     display: block;
     width: 50px;
@@ -561,45 +659,58 @@ a.fuente-externa {
     position: absolute;
     z-index: 10;
 }
+
 .lineaTiempo.grande div a {
     width: 70px;
     height: 70px;
     top: -10px;
     font-size: 12px;
 }
+
 .lineaTiempo div a:hover {
     text-decoration: none;
 }
-.lineaTiempo div a:nth-of-type(1){
+
+.lineaTiempo div a:nth-of-type(1) {
     margin-left: 10%;
 }
-.lineaTiempo div a:nth-of-type(2){
+
+.lineaTiempo div a:nth-of-type(2) {
     margin-left: 35%;
 }
-.lineaTiempo div a:nth-of-type(3){
+
+.lineaTiempo div a:nth-of-type(3) {
     margin-left: 60%;
 }
-.lineaTiempo div a:nth-of-type(4){
+
+.lineaTiempo div a:nth-of-type(4) {
     margin-left: 85%;
 }
-.lineaTiempo.grande div a:nth-of-type(1){
+
+.lineaTiempo.grande div a:nth-of-type(1) {
     margin-left: 8%;
 }
-.lineaTiempo.grande div a:nth-of-type(2){
+
+.lineaTiempo.grande div a:nth-of-type(2) {
     margin-left: 31%;
 }
-.lineaTiempo.grande div a:nth-of-type(3){
+
+.lineaTiempo.grande div a:nth-of-type(3) {
     margin-left: 54%;
 }
-.lineaTiempo.grande div a:nth-of-type(4){
+
+.lineaTiempo.grande div a:nth-of-type(4) {
     margin-left: 77%;
 }
+
 .arbol {
     position: relative;
 }
+
 .arbol svg {
     position: absolute !important;
 }
+
 .arbol a {
     display: block;
     text-align: center;
@@ -612,29 +723,37 @@ a.fuente-externa {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
 .arbol a:hover {
     text-decoration: none;
 }
+
 ul.banderas {
     padding: 0;
 }
+
 ul.banderas>li {
     list-style: none;
 }
+
 table.logos img {
     width: 50px;
     height: auto;
 }
+
 table.logos td:last-of-type {
     padding-left: 10px;
 }
+
 table.logos tr:not(:last-of-type) {
     border-bottom: solid 1px #eee;
     padding-bottom: 2px;
 }
+
 .graficoSimple.mapamundi {
     background-image: url(../images/mapamundi.png);
 }
+
 .graficoSimple.ctpat {
     background-image: url(../images/ctpat.jpg);
     background-color: #fff;
@@ -642,6 +761,7 @@ table.logos tr:not(:last-of-type) {
     background-position: 50% 100%;
     padding-bottom: 20%;
 }
+
 .graficoSimple {
     background-repeat: no-repeat;
     background-size: cover;
@@ -650,6 +770,7 @@ table.logos tr:not(:last-of-type) {
     border-radius: 5px;
     margin-bottom: 2em;
 }
+
 .graficoSimple a,
 .graficoSimple div {
     display: block;
@@ -661,10 +782,12 @@ table.logos tr:not(:last-of-type) {
     margin-bottom: 3em;
     text-align: center;
 }
+
 .graficoSimple a:hover,
 .emparejamiento a:hover {
     text-decoration: none;
 }
+
 .emparejamiento a {
     display: block;
     min-height: 3em;
@@ -674,9 +797,32 @@ table.logos tr:not(:last-of-type) {
     margin-bottom: 3em;
     text-align: center;
 }
+
 .emparejamiento .arrastrable a {
     z-index: 9999 !important;
 }
+
+.emparejamiento .arrastrable a>.texto {
+    display: inline;
+}
+
+.emparejamiento .arrastrable a>.icono-drag {
+    display: none;
+}
+
+.emparejamiento .arrastrable a.ondrag {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.emparejamiento .arrastrable a.ondrag>.texto {
+    display: none;
+}
+
+.emparejamiento .arrastrable a.ondrag>.icono-drag {
+    display: block;
+}
+
 .emparejamiento .destino a {
     overflow: hidden;
     min-height: 8.5em;
@@ -685,6 +831,7 @@ table.logos tr:not(:last-of-type) {
     padding-top: 2em;
     */
 }
+
 .emparejamiento .destino a .img-arrastrable {
     position: absolute;
     top: -2px;
@@ -692,6 +839,7 @@ table.logos tr:not(:last-of-type) {
     width: auto;
     height: 102%;
 }
+
 .emparejamiento .destino a span.texto {
     position: absolute;
     display: block;
@@ -699,59 +847,74 @@ table.logos tr:not(:last-of-type) {
     height: 3em;
     bottom: 0;
     left: 0;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
+
 .emparejamiento .destino.grande a {
     height: 8em;
 }
+
 .posicionArrastrables {
     top: 0px !important;
     left: 0px !important;
 }
+
 .emparejamiento .destino a {
     position: relative;
 }
+
 .emparejamiento .destino a .badge {
     position: absolute;
     top: 10px;
     left: 10px;
 }
+
 .emparejamiento .arrastrable p {
     display: none;
 }
+
 .esquemaCircular.seis {
     width: 100%;
     height: 520px;
     position: relative;
 }
+
 .esquemaCircular div.pasos {
     width: 100%;
     height: 100%;
 }
+
 .esquemaCircular div.pasos div.paso {
     position: absolute;
 }
+
 .esquemaCircular.seis div.pasos div.paso:nth-of-type(1) {
     left: 33.333%;
 }
+
 .esquemaCircular.seis div.pasos div.paso:nth-of-type(2) {
     left: 66.666%;
     top: 15%;
 }
+
 .esquemaCircular.seis div.pasos div.paso:nth-of-type(3) {
     left: 66.666%;
     top: 40%;
 }
+
 .esquemaCircular.seis div.pasos div.paso:nth-of-type(4) {
     left: 33.333%;
     top: 60%;
 }
+
 .esquemaCircular.seis div.pasos div.paso:nth-of-type(5) {
     top: 40%;
 }
+
 .esquemaCircular.seis div.pasos div.paso:nth-of-type(6) {
     top: 15%;
 }
+
 .esquemaCircular div.pasos div.paso a {
     display: block;
     width: 120px;
@@ -763,6 +926,7 @@ table.logos tr:not(:last-of-type) {
     line-height: 1.25em;
     padding: 0.75em;
 }
+
 .esquemaCircular .fondo {
     position: absolute;
     width: 120px;
@@ -770,6 +934,7 @@ table.logos tr:not(:last-of-type) {
     left: 33.333%;
     top: 25%;
 }
+
 .listadoHorizontal a {
     display: block;
     width: 50px;
@@ -779,9 +944,11 @@ table.logos tr:not(:last-of-type) {
     line-height: 1.25em;
     padding: 0.75em;
 }
+
 .listadoHorizontal.circulos a {
     border-radius: 50%;
 }
+
 .img-centrada,
 .img-modal,
 .img-modal-xl,
@@ -790,6 +957,7 @@ table.logos tr:not(:last-of-type) {
     margin-left: auto;
     margin-right: auto;
 }
+
 .wrap-img-modal,
 .wrap-img-modal-xl,
 .wrap-obj-modal {
@@ -802,6 +970,7 @@ table.logos tr:not(:last-of-type) {
     padding-left: 10px;
     padding-top: 10px;
 }
+
 .wrap-img-modal p,
 .wrap-img-modal-xl p,
 .wrap-obj-modal p {
@@ -809,6 +978,7 @@ table.logos tr:not(:last-of-type) {
     text-align: right;
     padding-top: 10px;
 }
+
 .wrap-img-modal h3,
 .wrap-img-modal-xl h3,
 .wrap-obj-modal h3 {
@@ -817,125 +987,156 @@ table.logos tr:not(:last-of-type) {
     margin-top: 10px;
     margin-bottom: 5px;
 }
+
 #modal .img-centrada,
 #modal-xl .img-centrada {
     width: 90%;
     height: auto;
 }
+
 .modal-xl {
     width: 95%;
 }
+
 .tabla thead>tr>th {
     text-transform: uppercase;
     text-align: center;
 }
+
 .tabla tbody>tr>td {
     vertical-align: middle;
 }
+
 .tabla tbody>tr>.titulo {
     font-weight: bold;
     text-align: center;
 }
+
 .tabla tfoot>tr>td {
     font-size: smaller;
 }
+
 .tabla td.tipo1,
 .tabla td.tipo2 {
     color: #fff;
     font-weight: bold;
 }
+
 .tabla td.tipo1 {
     background-color: #74b233 !important;
 }
+
 .tabla td.tipo2 {
     background-color: #3b8acd !important;
 }
+
 .seleccionable {
     margin-top: 30px;
     padding: 10px;
     border-radius: 5px;
     color: #FFF;
 }
+
 .seleccionable select {
     background-color: transparent;
     border: transparent;
     border-bottom: solid 1px #FFF;
     color: #000;
 }
+
 .seleccionable.has-error,
 .seleccionable.has-success {
     border: solid 1px;
 }
+
 .seleccionable span.respuesta {
     text-decoration: underline;
 }
+
 .alert-danger {
     background-color: #f2dede !important;
     color: #a94442 !important;
 }
+
 .alert-success {
     background-color: #dff0d8 !important;
     color: #3c763d !important;
 }
+
 .tablaOcultoVisible th {
     text-align: center;
 }
+
 .abreOculto {
     text-align: left;
 }
+
 .oculto {
     display: none;
 }
+
 .visible {
     color: #FFF;
-    color: rgba(255,255,255,0.25);
+    color: rgba(255, 255, 255, 0.25);
     text-align: center;
 }
+
 .tablaComun.celdasDerecha tbody td {
     text-align: right;
 }
+
 .tablaComun.col-50-50 th,
 .tablaComun.col-50-25-25 th:nth-of-type(1),
 .tablaComun.col-25-25-50 th:nth-of-type(3) {
     width: 50%;
 }
+
 .tablaComun.col-33-33-33 th {
     width: 33.333%;
 }
+
 .tablaComun.col-60-20-20 th:nth-of-type(1) {
     width: 60%;
 }
+
 .tablaComun.col-40-30-30 th:nth-of-type(2),
 .tablaComun.col-40-30-30 th:nth-of-type(3) {
     width: 30%;
 }
+
 .tablaComun.col-40-30-30 th:nth-of-type(1),
 .tablaComun.col-40-40-20 th:nth-of-type(1),
 .tablaComun.col-40-40-20 th:nth-of-type(2) {
     width: 40%;
 }
+
 .tablaComun.col-25-25-50 th:nth-of-type(1),
 .tablaComun.col-25-25-50 th:nth-of-type(2),
 .tablaComun.col-50-25-25 th:nth-of-type(2),
 .tablaComun.col-50-25-25 th:nth-of-type(3) {
     width: 25%;
 }
+
 .tablaComun.col-40-40-20 th:nth-of-type(3),
 .tablaComun.col-60-20-20 th:nth-of-type(2),
 .tablaComun.col-60-20-20 th:nth-of-type(3),
 .tablaComun.col-20-20-20-20-20 th {
     width: 20%;
 }
+
 .tablaComun .panelFuente {
     font-size: 0.75em;
     padding: 10px;
 }
+
 #normaBASC th:nth-of-type(1) {
     width: 60%;
 }
+
 #normaBASC th:nth-of-type(2) {
     width: 40%;
 }
+
 #riesgos th,
 #normaBASC th,
 .tablaComun th,
@@ -944,18 +1145,23 @@ table.logos tr:not(:last-of-type) {
     text-align: center;
     vertical-align: middle;
 }
+
 #riesgos th:nth-of-type(1) {
     width: 10%;
 }
+
 #riesgos th:nth-of-type(2) {
     width: 40%;
 }
+
 #riesgos th:nth-of-type(3) {
     width: 20%;
 }
+
 #riesgos th:nth-of-type(4) {
     width: 30%;
 }
+
 #riesgos td,
 #normaBASC td,
 #tablaComun td,
@@ -964,49 +1170,61 @@ table.logos tr:not(:last-of-type) {
     padding: 10px;
     vertical-align: middle;
 }
+
 #riesgos td i.fa-exclamation-triangle,
 .tablaComun td i.fa-exclamation-triangle {
     color: #F55;
 }
+
 #riesgos td i.fa-lightbulb-o,
 .tablaComun td i.fa-lightbulb-o {
     color: #55F;
 }
+
 #riesgos h4.panel-title>a:before,
 #normaBASC h4.panel-title>a:before,
 .tablaComun h4.panel-title>a:before {
     content: "\f0d7";
     font-family: FontAwesome;
 }
+
 #riesgos h4.panel-title>a.collapsed:before,
 #normaBASC h4.panel-title>a.collapsed:before,
 .tablaComun h4.panel-title>a.collapsed:before {
     content: "\f0da";
     font-family: FontAwesome;
 }
+
 #normaBASC th:nth-of-type(1) {
     width: 60%;
 }
+
 #normaBASC th:nth-of-type(2) {
     width: 40%;
 }
+
 #tablaComun td.amarilla {
     background-color: #FF0;
 }
+
 #tablaComun td.roja {
     background-color: #F00;
 }
+
 #tablaComun td.verde {
     background-color: #0F0;
 }
+
 #tablaComun tfoot {
     font-size: 10px;
 }
+
 #listaDesplegable {
     list-style-type: none;
     padding: 0;
     display: table;
 }
+
 #listaDesplegable li strong {
     display: table-cell;
     vertical-align: middle;
@@ -1015,11 +1233,13 @@ table.logos tr:not(:last-of-type) {
     width: 30%;
     color: #FFF;
 }
+
 #listaDesplegable li strong:after {
     font-family: FontAwesome;
     content: "\f0da";
     margin-left: 1em;
 }
+
 #listaDesplegable li strong.inline {
     display: inline;
     vertical-align: inherit;
@@ -1030,31 +1250,38 @@ table.logos tr:not(:last-of-type) {
     background-color: inherit !important;
     border: inherit !important;
 }
+
 #listaDesplegable li strong.inline:after {
     content: "";
     margin-left: inherit;
 }
+
 #listaDesplegable li span {
     display: table-cell;
     padding: 0.5em;
     background-color: #FFF;
 }
+
 .tablaDesplegada thead tr th,
 .tablaDesplegada tbody tr td,
 .tablaDesplegada tbody tr td span {
     display: none;
 }
+
 .tablaDesplegada tbody tr td:first-of-type {
     display: table-cell;
     cursor: pointer;
 }
+
 .video {
     max-width: 100%;
 }
+
 .video video {
     max-width: 100%;
     height: auto;
 }
+
 .loading {
     margin-left: auto;
     margin-right: auto;
@@ -1062,11 +1289,13 @@ table.logos tr:not(:last-of-type) {
     padding: 25px 0;
     text-align: center;
 }
+
 .modalidades {
     background-color: #C1CDD4;
     border-radius: 0.5em;
     margin: 0 0 1em;
 }
+
 .modalidades>.titulo {
     font-size: 1.25em;
     text-align: center;
@@ -1077,31 +1306,41 @@ table.logos tr:not(:last-of-type) {
     margin-left: 0.05em;
     padding-top: 0.5em;
 }
+
 .modalidades>.contenido {
     padding: 0.75em;
 }
+
 .modalidades>.comparacion {
     padding: 0.25em;
 }
+
 .modalidades>.comparacion div:nth-child(1) {
     text-align: right;
 }
+
 .modalidades>.comparacion div:nth-child(2) {
     text-align: center;
 }
+
 .modalidades>.comparacion div:nth-child(3) {
     text-align: left;
 }
+
 #canal-panama {
     width: 100%;
     border: 0;
     min-height: 640px;
 }
+
 #canal-panama header,
 .page_title_holder.clearfix {
     display: none;
 }
+
+
 /* CSS media queries */
+
 @media (max-width: 767px) {
     header h1 {
         margin-top: 0;
@@ -1134,6 +1373,7 @@ table.logos tr:not(:last-of-type) {
         padding-right: 0;
     }
 }
+
 @media (max-width: 991px) {
     #contenido {
         margin-top: 0;
